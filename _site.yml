@@ -1,4 +1,4 @@
-name: davisnightmarket.github.io
+name: "night market diy guidelines"
 output_dir: '.'
 output:
   html_document:
