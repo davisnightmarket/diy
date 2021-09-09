@@ -11,6 +11,34 @@ output:
 library(downloadthis)
 ```
 
+
+# PERMITS
+
+# LIABILITY
+
+One major barrier to donation is liability. Businesses worry about incurring liability if someone gets sick from eating
+donated foods. Many businesses fail to donate foods because they do not know about the liability protections available to
+food donors under the Bill Emerson Good Samaritan Food Donation Act (Emerson Act).33 Those that are aware of available
+liability protections may be deterred by unclear provisions in the Act or may not want to incur additional costs needed to
+comply with the Act, such as re-conditioning some food products.34 Navigating and complying with these rules can require
+a significant amount of time and resources, serving as additional barriers to food donation.35
+
+
+Donors and nonprofit food recovery organizations must meet the following four requirements to receive protection
+under the Emerson Act:
+1. The food must be donated to a nonprofit organization in good faith, meaning that the food must be donated with the honest belief that it is safe to eat
+
+2. The food must meet all federal, state, and local quality and labeling requirements, even if it is not “readily marketable due to appearance, age, freshness, grade, size, surplus, or other conditions"
+
+3.The nonprofit organization that receives the donated food must distribute it to needy individuals
+
+4. The end recipient must not pay anything of monetary value for the donated food.54
+
+labels: https://www.fda.gov/consumers/consumer-updates/confused-date-labels-packaged-foods
+
+# TAX DEDUCTIONS
+
+
 ```{r download 1, echo=FALSE}
 
 ## Link in Github repo
