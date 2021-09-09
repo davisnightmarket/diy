@@ -11,6 +11,21 @@ output:
 library(downloadthis)
 ```
 
+```{r download 1, echo=FALSE}
+
+## Link in Github repo
+download_link(
+  link = "https://github.com/fmmattioni/downloadthis/raw/master/inst/example/file_1.pdf",
+  button_label = "Download pdf file",
+  button_type = "danger",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = FALSE
+)
+```
+
+
+
 Health and Safety (County)
 
 

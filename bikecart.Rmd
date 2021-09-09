@@ -67,6 +67,7 @@ Depending on the metal frame of the recovered trailer, and the planned use the t
 * Check the weight your frame is designed to load, and take that into account when you decide on the materials for your design. The intended cargo can vary, but usually ones you will find for free are dog trailers for kids or dogs that weigh around 80-125 lb (around 45 kg). 
 
 * Remember to ensure easy access for loading and unloading the food (ideally the back panel will be shorter can be moved on hinges)
+<br> 
 
 #### Lateral panels
 
@@ -81,16 +82,19 @@ We have tried out 3 types of lateral panels:
 * **metal frame of the trailer, nothing added**: lightest most minimalist version, but will probably need to carry a plastic tub or cardboard box to contain the food (in the picture, the trailer furthest to the right)
 
 </h4><div class="main-photo"><img src="photos/bikecartfleet.JPG"></div></h4>
+<br> 
 
 #### Front and back panels
 
 typically shorter, and must allow easy access to the food inside the trailer. If you want your trailer to have only one illuminated LED sign, the back panel is a good choice
 
 </h4><div class="main-photo"><img src="photos/bikecartback.JPEG"></div></h4>
+<br> 
 
 #### Bottom panel
 
 thicker wood is recommended, and must adjust to the trailer metal frame, at least ½ inch plywood. 
+<br> 
 
 ## Building steps 
 
@@ -113,7 +117,7 @@ thicker wood is recommended, and must adjust to the trailer metal frame, at leas
 </h4><div class="main-photo"><img src="photos/support_beams.JPG"></div></h4>
 
 5. Cut 1 or 2 long pieces of wood that are a bit longer than the bottom panel (probably 3-4 inches are enough). You can use this to attach the floor panel to the metal trailer frame by drilling a long thick bolts through both the bottom beam and the floor, or using U-bolts for the same purpose. 
-
+<br> 
 </h4><div class="main-photo"><img src="photos/bottom_beam.JPG"></div></h4>
 
 6. Prime all wood panels and beams
@@ -124,11 +128,13 @@ thicker wood is recommended, and must adjust to the trailer metal frame, at leas
 
 
 The beams and panels should look something like this: 
-
+<br> 
 </h4><div class="main-photo"><img src="photos/blue_cart_above.JPG"></div></h4>
-
+<br> 
 
 **and you're done!!**
+
+<br> 
 
 </h4><div class="main-photo"><img src="photos/1S9A8415.jpg"></div></h4>
 
