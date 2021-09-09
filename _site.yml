@@ -1,0 +1,22 @@
+name: akawiecki.github.io
+output_dir: '.'
+output:
+  html_document:
+    theme: flatly
+    css: style.css
+    lib_dir: site_libs
+    self_contained: no
+navbar:
+  title: night market DIY guides
+  left:
+  - text: About
+    href: index.html
+  - text: bike cart re-build
+    href: bikecart.html
+  - text: Get in Touch
+    menu:
+    - icon: fa-twitter
+      href: https://twitter.com/davisnightmarket
+    - icon: fa-envelope
+      href: mailto:nightmarket@freedge.org
+      
