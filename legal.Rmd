@@ -15,8 +15,8 @@ library(downloadthis)
 
 ## Link in Github repo
 download_link(
-  link = "https://github.com/fmmattioni/downloadthis/raw/master/inst/example/file_1.pdf",
-  button_label = "Download pdf file",
+  link = "https://github.com/davisnightmarket/diy/blob/gh-pages/docs/Liability%20Protection%20Food%20Donation.pdf",
+  button_label = "Download pdf",
   button_type = "danger",
   has_icon = TRUE,
   icon = "fa fa-save",
@@ -25,6 +25,8 @@ download_link(
 ```
 
 
+
+<a href="docs/Liability Protection Food Donation.pdf" target="_blank">Liability Protection Food Donation.</a>
 
 Health and Safety (County)
 
