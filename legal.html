@@ -19,13 +19,11 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<script src="site_libs/font-awesome-5.13.0/js/script.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -263,69 +261,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
 
 </head>
 
@@ -333,16 +268,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -417,28 +342,79 @@ div.tocify {
 
 </div>
 
+<div id="TOC">
+<ul>
+<li><a href="#permits">PERMITS</a></li>
+<li><a href="#liability">LIABILITY</a><ul>
+<li><a href="#getting-sued-for-donating-food-is-basically-not-a-thing">1. <strong>getting sued for donating food is basically not a thing</strong></a></li>
+<li><a href="#you-and-your-donors-are-protected-by-the-federal-law-as-long-as-you-are-a-non-profit">2. <strong>you and your donors are protected by the federal law, as long as you are a non-profit</strong></a><ul>
+<li><a href="#im-not-a-non-profit.-now-what">i’m not a non-profit. now what?</a></li>
+</ul></li>
+<li><a href="#some-states-have-specific-laws-that-may-make-your-life-easier">some states have specific laws that may make your life easier</a><ul>
+<li><a href="#california">california</a></li>
+<li><a href="#washington-state">washington state</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#tax-deductions">TAX DEDUCTIONS</a></li>
+</ul>
+</div>
 
 <div id="permits" class="section level1">
 <h1>PERMITS</h1>
 </div>
 <div id="liability" class="section level1">
 <h1>LIABILITY</h1>
-<p>One major barrier to donation is liability. Businesses worry about incurring liability if someone gets sick from eating donated foods. Many businesses fail to donate foods because they do not know about the liability protections available to food donors under the Bill Emerson Good Samaritan Food Donation Act (Emerson Act).33 Those that are aware of available liability protections may be deterred by unclear provisions in the Act or may not want to incur additional costs needed to comply with the Act, such as re-conditioning some food products.34 Navigating and complying with these rules can require a significant amount of time and resources, serving as additional barriers to food donation.35</p>
-<p>Donors and nonprofit food recovery organizations must meet the following four requirements to receive protection under the Emerson Act: 1. The food must be donated to a nonprofit organization in good faith, meaning that the food must be donated with the honest belief that it is safe to eat</p>
-<ol start="2" style="list-style-type: decimal">
-<li>The food must meet all federal, state, and local quality and labeling requirements, even if it is not “readily marketable due to appearance, age, freshness, grade, size, surplus, or other conditions”</li>
+<p><strong>TLDR</strong>: here’s a handy <a href="docs/liability_flowchart.pdf" target="_blank">liability flow chart.</a> that will get you started.</p>
+<p>For those who want to get in the nitty gritty… keep reading</p>
+<p>So you need to know that</p>
+<div id="getting-sued-for-donating-food-is-basically-not-a-thing" class="section level2">
+<h2>1. <strong>getting sued for donating food is basically not a thing</strong></h2>
+<p>This <a href="https://law.uark.edu/documents/2013/06/Legal-Guide-To-Food-Recovery.pdf">report</a> by the University of Arkansas School of Law found that “lawsuits arising out of the donation or provision of recovered food are extremely uncommon. Indeed, <strong>a thorough search of filings and review of reported decisions did not turn up a single case that involved food donation-related liability</strong> or any attempts to get around the protections offered by the Bill Emerson Act. Additionally, several leading food recovery experts and antihunger advocates report that they are unaware of any such actual or threatened lawsuits. The absence of litigation or other disputes related to food donation demonstrates that fear of lawsuits or other negative publicity related to mishaps with donated food are overstated and largely illusory barriers to food recovery.”</p>
+</div>
+<div id="you-and-your-donors-are-protected-by-the-federal-law-as-long-as-you-are-a-non-profit" class="section level2">
+<h2>2. <strong>you and your donors are protected by the federal law, as long as you are a non-profit</strong></h2>
+<p>These are the 4 requirements to receive protection from the federal Bill Emerson Good Samaritan Food Donation Act:</p>
+<ol style="list-style-type: decimal">
+<li><p>The donation must be made to a nonprofit organization.</p></li>
+<li><p>The food must be donated to a nonprofit organization in good faith, meaning that the food must be donated with the honest belief that it is safe to eat</p></li>
+<li><p>The donated items must be either apparently wholesome food or apparently fit grocery products</p></li>
+<li><p>The nonprofit organization that receives the donated food must distribute it to needy individuals, who must not pay anything of monetary value for the donated food</p></li>
 </ol>
-<p>3.The nonprofit organization that receives the donated food must distribute it to needy individuals</p>
-<ol start="4" style="list-style-type: decimal">
-<li>The end recipient must not pay anything of monetary value for the donated food.54</li>
+<div id="im-not-a-non-profit.-now-what" class="section level3">
+<h3>i’m not a non-profit. now what?</h3>
+<p>it’s ok! you have options</p>
+<ol style="list-style-type: decimal">
+<li><p>you’re probably fine anyway (see point 1 “getting sued for donating food is basically not a thing”). jk</p></li>
+<li><p><strong>get a fiscal sponsor</strong></p></li>
 </ol>
+<p>a fiscal sponsor is basically a 501(c)(3) non-profit that agrees to sponsor you such that you share their 501(c)(3) non-profit status. they also receive your money, so you’ll have to send them a budget once a year (which can be $0).</p>
+<p>relationships with fiscal sponsors may vary, but, luckily, we have a solution for you!</p>
+<p>our fiscal sponsor, <a href="https://opencorporates.com/companies/us_ca/201718410104">Left Lovers</a> (yes, it’s a real non-profit, not a movie about sexy vampires) is very happy to sponsor food recovery efforts without taking a chunk of your money. the only thing they might ask is a yearly insurance fee to cover your operation. if you’re interested in being sponsored by left lovers, fill in <a href="https://drive.google.com/file/d/1Dha31GaLD_fZ1qEfy21PBgq5owvEllJd/view">this fiscal sponsorship form</a> and contact <a href="mailto:ernst@freedge.org" class="email">ernst@freedge.org</a> or <a href="mailto:nightmarket@freedge.org" class="email">nightmarket@freedge.org</a></p>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>become a 501(c)(3) non-profit</strong></li>
+</ol>
+<p>might be worth it depending on your needs</p>
+<div id="compare-your-options" class="section level4">
+<h4>compare your options</h4>
+<p>here’s a good, if slightly caustic toward fiscal sponsors (like i said, i promise left lovers won’t actually suck you dry) comparison of your <a href="docs/non-profit-status.pdf" target="_blank">options for acquiring non-profit-status</a> from <a href="http://bigdoorbrigade.com/category/handling-money-and-taxes/">big door brigade</a>.</p>
+<p>non-profit-status</p>
+<p><a href="http://bigdoorbrigade.com/category/handling-money-and-taxes/" class="uri">http://bigdoorbrigade.com/category/handling-money-and-taxes/</a></p>
 <p>labels: <a href="https://www.fda.gov/consumers/consumer-updates/confused-date-labels-packaged-foods" class="uri">https://www.fda.gov/consumers/consumer-updates/confused-date-labels-packaged-foods</a></p>
+</div>
+</div>
+</div>
+<div id="some-states-have-specific-laws-that-may-make-your-life-easier" class="section level2">
+<h2>some states have specific laws that may make your life easier</h2>
+<div id="california" class="section level3">
+<h3>california</h3>
+</div>
+<div id="washington-state" class="section level3">
+<h3>washington state</h3>
+</div>
+</div>
 </div>
 <div id="tax-deductions" class="section level1">
 <h1>TAX DEDUCTIONS</h1>
-<a href="https://github.com/davisnightmarket/diy/blob/gh-pages/docs/Liability%20Protection%20Food%20Donation.pdf">
-<button class="btn btn-danger"><i class="fa fa-save"></i> Download pdf</button>
-</a>
 <p><a href="docs/Liability Protection Food Donation.pdf" target="_blank">Liability Protection Food Donation.</a></p>
 <p>Health and Safety (County)</p>
 <p>Event reservation (City)</p>
@@ -446,8 +422,6 @@ div.tocify {
 
 
 
-</div>
-</div>
 
 </div>
 
@@ -480,32 +454,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

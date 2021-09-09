@@ -3,58 +3,85 @@ title: "LEGAL"
 output:
   html_document:
     toc: true
-    toc_float: true
 ---
-
-
-```{r libraries, echo=FALSE}
-library(downloadthis)
-```
-
 
 # PERMITS
 
 # LIABILITY
 
-One major barrier to donation is liability. Businesses worry about incurring liability if someone gets sick from eating
-donated foods. Many businesses fail to donate foods because they do not know about the liability protections available to
-food donors under the Bill Emerson Good Samaritan Food Donation Act (Emerson Act).33 Those that are aware of available
-liability protections may be deterred by unclear provisions in the Act or may not want to incur additional costs needed to
-comply with the Act, such as re-conditioning some food products.34 Navigating and complying with these rules can require
-a significant amount of time and resources, serving as additional barriers to food donation.35
+Disclaimer: the following only applies to the U.S. 
+
+**TLDR**: here's a handy <a href="docs/liability_flowchart.pdf" target="_blank">liability flow chart.</a> that will get you started. 
+
+For those who want to get in the nitty gritty... keep reading 
+
+So you need to know that
+
+## 1. **getting sued for donating food is basically not a thing** 
+
+This [report](https://law.uark.edu/documents/2013/06/Legal-Guide-To-Food-Recovery.pdf) by the University of Arkansas School of Law found that "lawsuits arising out of
+the donation or provision of recovered food are extremely uncommon. Indeed, **a thorough search of filings and review of reported decisions did not turn up a single case that
+involved food donation-related liability** or any attempts to get around the protections offered by the Bill Emerson Act. Additionally, several leading food recovery experts and antihunger advocates report that they are unaware of any such
+actual or threatened lawsuits. The absence of litigation or other disputes related to food donation demonstrates that fear of lawsuits or other negative publicity related to mishaps with donated food are overstated and largely illusory barriers to food recovery." 
+
+## 2. **you and your donors are protected by the federal law, as long as you are a non-profit** 
+
+These are the 4 requirements to receive protection from the federal Bill Emerson Good Samaritan Food Donation Act: 
+
+1. The donation must be
+made to a nonprofit
+organization.
+
+2. The food must be donated to a nonprofit organization in good faith, meaning that the food must be donated with the honest belief that it is safe to eat
+
+3. The donated items must be
+either apparently wholesome
+food or apparently fit grocery
+products
+
+4. The nonprofit organization that receives the donated food must distribute it to needy individuals, who must not pay anything of monetary value for the donated food
+
+For more info: 
+
+<a href="docs/Liability Protection Food Donation.pdf" target="_blank">Liability Protection Food Donation.</a>
 
 
-Donors and nonprofit food recovery organizations must meet the following four requirements to receive protection
-under the Emerson Act:
-1. The food must be donated to a nonprofit organization in good faith, meaning that the food must be donated with the honest belief that it is safe to eat
 
-2. The food must meet all federal, state, and local quality and labeling requirements, even if it is not “readily marketable due to appearance, age, freshness, grade, size, surplus, or other conditions"
+### i'm not a non-profit. now what?
 
-3.The nonprofit organization that receives the donated food must distribute it to needy individuals
+it's ok! you have options
 
-4. The end recipient must not pay anything of monetary value for the donated food.54
+1. you're probably fine anyway (see point 1 "getting sued for donating food is basically not a thing"). jk
+
+2. **get a fiscal sponsor**
+
+a fiscal sponsor is basically a 501(c)(3) non-profit that agrees to sponsor you such that you share their 501(c)(3) non-profit status. they also receive your money, so you'll have to send them a budget once a year (which can be $0). 
+
+relationships with fiscal sponsors may vary, but, luckily, we have a solution for you! 
+
+our fiscal sponsor, [Left Lovers](https://opencorporates.com/companies/us_ca/201718410104) (yes, it's a real non-profit, not a movie about sexy vampires) is very happy to sponsor food recovery efforts without taking a chunk of your money. the only thing they might ask is a yearly insurance fee to cover your operation. if you're interested in being sponsored by left lovers, fill in [this fiscal sponsorship form](https://drive.google.com/file/d/1Dha31GaLD_fZ1qEfy21PBgq5owvEllJd/view) and contact ernst@freedge.org or nightmarket@freedge.org 
+
+
+3. **become a 501(c)(3) non-profit** 
+
+might be worth it depending on your needs
+
+#### compare your options
+
+here's a good, if slightly caustic toward fiscal sponsors (like i said, i promise left lovers won't actually suck you dry) comparison of your <a href="docs/non-profit-status.pdf" target="_blank">options for acquiring non-profit-status</a> from [big door brigade](http://bigdoorbrigade.com/category/handling-money-and-taxes/), a compilation of resources for mutual aid orgs that's worth checking out either way. 
+
 
 labels: https://www.fda.gov/consumers/consumer-updates/confused-date-labels-packaged-foods
 
+## some states have specific laws that may make your life easier
+
+### california
+### washington state
+
+
+
 # TAX DEDUCTIONS
 
-
-```{r download 1, echo=FALSE}
-
-## Link in Github repo
-download_link(
-  link = "https://github.com/davisnightmarket/diy/blob/gh-pages/docs/Liability%20Protection%20Food%20Donation.pdf",
-  button_label = "Download pdf",
-  button_type = "danger",
-  has_icon = TRUE,
-  icon = "fa fa-save",
-  self_contained = FALSE
-)
-```
-
-
-
-<a href="docs/Liability Protection Food Donation.pdf" target="_blank">Liability Protection Food Donation.</a>
 
 Health and Safety (County)
 
