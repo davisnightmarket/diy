@@ -9,14 +9,22 @@ output:
 navbar:
   title: night market DIY guides
   left:
-  - text: About
+  - text: about
     href: index.html
-  - text: bike cart re-build
+  - text: food recovery
+    href: food_recovery.html
+  - text: legal
+    href: legal.html  
+  - text: bike trailer
     href: bikecart.html
-  - text: Get in Touch
+  - text: LED sign
+    href: led_sign.html
+  - text: volunteers
+    href: volunteers.html
+  - text: get in touch
     menu:
     - icon: fa-twitter
-      href: https://twitter.com/davisnightmarket
+      href: https://twitter.com/DavisNightMrkt
     - icon: fa-envelope
       href: mailto:nightmarket@freedge.org
       

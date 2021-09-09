@@ -1,0 +1,15 @@
+---
+title: "LEGAL"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+
+```{r libraries, echo=FALSE}
+library(downloadthis)
+```
+
+Health and Safety (County)
+Event reservation (City)
