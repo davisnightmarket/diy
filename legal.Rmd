@@ -18,22 +18,26 @@ DISCLAIMER: the following only applies to the U.S.
 
 ## **TLDR**
 
-Here's a handy <a href="docs/liability_flowchart.pdf" target="_blank">liability flow chart.</a> that will get you started. 
+Here's a handy <a href="docs/liability_flowchart.pdf" target="_blank">liability flow chart </a> that will get you started. 
+
+Also please check out our friends at [the Freedge](https://freedge.org/)'s manifesto [the Liability Myth](https://drive.google.com/file/d/1O_44v7yoTkj3BIqw6SImhFrfygohMJgv/view) , that goes into detail of the stigma-perpetuating and non-profit-industrial-complex-supporting implications of all the below. 
+
+
 
 For those who want to get in the nitty gritty... keep reading 
 
 So you need to know that
 
-## 1. **getting sued for donating food is basically not a thing** 
+## 1. **getting sued for donating food is not a thing** 
 
 This [report](https://law.uark.edu/documents/2013/06/Legal-Guide-To-Food-Recovery.pdf) by the University of Arkansas School of Law found that "lawsuits arising out of
 the donation or provision of recovered food are extremely uncommon. Indeed, **a thorough search of filings and review of reported decisions did not turn up a single case that
 involved food donation-related liability** or any attempts to get around the protections offered by the Bill Emerson Act. Additionally, several leading food recovery experts and antihunger advocates report that they are unaware of any such
 actual or threatened lawsuits. The absence of litigation or other disputes related to food donation demonstrates that fear of lawsuits or other negative publicity related to mishaps with donated food are overstated and largely illusory barriers to food recovery."
 
-## 2. **you and your donors are protected by federal law, as long as you are a non-profit** 
+## 2. **you and your donors are protected under federal law... as long as you are a non-profit** 
 
-The federal [**Bill Emerson Good Samaritan Food Donation Act**](https://www.feedingamerica.org/about-us/partners/become-a-product-partner/food-partners) is your best friend, and will keep you safe as long as you fulfill these 4 requirements: 
+If you're already a non-profit, the federal [**Bill Emerson Good Samaritan Food Donation Act**](https://www.feedingamerica.org/about-us/partners/become-a-product-partner/food-partners) is your best friend, and will keep you safe as long as you fulfill these 4 requirements: 
 
 1. The donation must be
 made to a nonprofit
@@ -53,11 +57,11 @@ For more info:
 <a href="docs/Liability Protection Food Donation.pdf" target="_blank">Liability Protection Food Donation.</a>
 
 
-### **i'm not a non-profit. now what?**
+### **cool. i'm not a non-profit. now what?**
 
 It's ok! You have options
 
-1. you're probably fine anyway (see [point 1](https://davisnightmarket.github.io/diy/legal.html#getting-sued-for-donating-food-is-basically-not-a-thing)). also, seriously, you're fine if you're in certain states (like [CA](https://davisnightmarket.github.io/diy/legal.html#california)), so it's worth looking at the specifics for your state.
+1. you're probably fine anyway (see [point 1](https://davisnightmarket.github.io/diy/legal.html#getting-sued-for-donating-food-is-basically-not-a-thing)). also, seriously, you're fine if you're in certain states (like [CA](https://davisnightmarket.github.io/diy/legal.html#california), CO), so it's worth looking at the specifics for your state. also, good for you, for not being a part of this horrendous system :)  
 
 2. **get a fiscal sponsor**
 
@@ -67,6 +71,9 @@ Relationships with fiscal sponsors may vary, but, luckily, we have a solution fo
 
 Our fiscal sponsor, [Left Lovers](https://opencorporates.com/companies/us_ca/201718410104) (yes, it's a real non-profit, not a movie about sexy vampires or a marxist cell) is very happy to sponsor food recovery efforts without taking a chunk of your money. the only thing they might ask is a yearly insurance fee to cover your operation. if you're interested in being sponsored by left lovers, fill in [this fiscal sponsorship form](https://drive.google.com/file/d/1Dha31GaLD_fZ1qEfy21PBgq5owvEllJd/view) and contact ernst@freedge.org.
 
+If Left Lovers sounds too much like a free-love anarchist commune for you, here's a [database of local fiscal sponsors](https://fiscalsponsordirectory.org/).
+
+"If you are interested in some of the different ways fiscal sponsorship can be done, Gregory Colvin and Stephanie Petit have a good summary of the [different types of fiscal sponsorships here](https://www.adlercolvin.com/wp-content/uploads/2017/12/Fiscal-Sponorship-Six-Ways-To-Do-It-Right-A-Synopsis.pdf)" (paraphrased from [big door brigade](http://bigdoorbrigade.com/category/handling-money-and-taxes/))
 
 3. **become a 501(c)(3) non-profit** 
 
@@ -74,7 +81,9 @@ Might be worth it depending on your needs, but i'm sure not gonna get into that 
 
 #### compare your options
 
-Here's a good, if slightly caustic toward fiscal sponsors (like i said, i promise left lovers won't actually suck you dry), comparison of your <a href="docs/non-profit-status.pdf" target="_blank">options for acquiring non-profit-status</a> from [big door brigade](http://bigdoorbrigade.com/category/handling-money-and-taxes/), a compilation of resources for mutual aid orgs that's worth checking out either way. 
+Here's a good comparison of your <a href="docs/non-profit-status.pdf" target="_blank">options for acquiring non-profit-status</a> from [big door brigade](http://bigdoorbrigade.com/category/handling-money-and-taxes/). 
+
+You might have noticed me citing [big door brigade](http://bigdoorbrigade.com/category/handling-money-and-taxes/) twice in a row, and that's because it's a compilation of resources for mutual aid orgs that's worth checking out and because everything Dean Spade touches is gold. 
 
 ### **so you say i'm covered, but i have questions!** 
 
@@ -111,6 +120,8 @@ governance of covered entities.
 
 #### **what food is covered?** 
 
+Basically everything. 
+
 * **Field gleaning**: The collection of crops from farmers’
 fields that have already been mechanically
 harvested or from fields where it is not economically
@@ -142,6 +153,10 @@ drives.
 (from UARK's [Legal Guide To Food Recovery](https://law.uark.edu/documents/2013/06/Legal-Guide-To-Food-Recovery.pdf))
 
 #### **when am i liable?** 
+
+Uuuuhm when you're a d*** and give people rotten food on purpose. 
+
+In legalese: 
 
 The exemption from liability is not absolute. Acts or omissions constituting
 “gross negligence” or “intentional misconduct” which result in the death or injury
@@ -199,6 +214,11 @@ Buuuuut, sometimes, your state's laws can help you out. like if they specificall
 
 ## **state-specific laws** 
 
+### all states 
+slightly outdated LOL: <a href="docs/state_liability_protection.pdf" target="_blank">liability  protection by state (2017).</a> 
+
+(from the Harvard Law School Food Law and Policy Clinic [Dont Waste Donate](https://www.chlpi.org/wp-content/uploads/2013/12/Dont-Waste-Donate_-March-2017.pdf))
+
 ### california
 
 On January 1, 2018, California enacted the
@@ -217,6 +237,8 @@ made by food facilities, which are subject
 to food safety regulations and regular
 inspections, **directly to individuals for
 consumption (direct donation).**
+
+(from [LA Guidance for Food Operators](http://publichealth.lacounty.gov/eh/docs/LACFRI_FoodOperatorGuidance-en.pdf))
 
 
 [CA food donation laws](https://www.cdph.ca.gov/Programs/CEH/DFDCS/CDPH%20Document%20Library/FDB/FoodSafetyProgram/FoodDonations.pdf)
