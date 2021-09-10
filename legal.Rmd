@@ -7,11 +7,18 @@ output:
 
 # PERMITS
 
+## Health and Safety (County)
+
+
+## Event reservation (City)
+
 # LIABILITY
 
-Disclaimer: the following only applies to the U.S. 
+DISCLAIMER: the following only applies to the U.S. 
 
-**TLDR**: here's a handy <a href="docs/liability_flowchart.pdf" target="_blank">liability flow chart.</a> that will get you started. 
+## **TLDR**
+
+Here's a handy <a href="docs/liability_flowchart.pdf" target="_blank">liability flow chart.</a> that will get you started. 
 
 For those who want to get in the nitty gritty... keep reading 
 
@@ -22,11 +29,11 @@ So you need to know that
 This [report](https://law.uark.edu/documents/2013/06/Legal-Guide-To-Food-Recovery.pdf) by the University of Arkansas School of Law found that "lawsuits arising out of
 the donation or provision of recovered food are extremely uncommon. Indeed, **a thorough search of filings and review of reported decisions did not turn up a single case that
 involved food donation-related liability** or any attempts to get around the protections offered by the Bill Emerson Act. Additionally, several leading food recovery experts and antihunger advocates report that they are unaware of any such
-actual or threatened lawsuits. The absence of litigation or other disputes related to food donation demonstrates that fear of lawsuits or other negative publicity related to mishaps with donated food are overstated and largely illusory barriers to food recovery." 
+actual or threatened lawsuits. The absence of litigation or other disputes related to food donation demonstrates that fear of lawsuits or other negative publicity related to mishaps with donated food are overstated and largely illusory barriers to food recovery."
 
-## 2. **you and your donors are protected by the federal law, as long as you are a non-profit** 
+## 2. **you and your donors are protected by federal law, as long as you are a non-profit** 
 
-These are the 4 requirements to receive protection from the federal Bill Emerson Good Samaritan Food Donation Act: 
+The federal [**Bill Emerson Good Samaritan Food Donation Act**](https://www.feedingamerica.org/about-us/partners/become-a-product-partner/food-partners) is your best friend, and will keep you safe as long as you fulfill these 4 requirements: 
 
 1. The donation must be
 made to a nonprofit
@@ -46,44 +53,180 @@ For more info:
 <a href="docs/Liability Protection Food Donation.pdf" target="_blank">Liability Protection Food Donation.</a>
 
 
+### **i'm not a non-profit. now what?**
 
-### i'm not a non-profit. now what?
+It's ok! You have options
 
-it's ok! you have options
-
-1. you're probably fine anyway (see point 1 "getting sued for donating food is basically not a thing"). jk
+1. you're probably fine anyway (see [point 1](https://davisnightmarket.github.io/diy/legal.html#getting-sued-for-donating-food-is-basically-not-a-thing)). also, seriously, you're fine if you're in certain states (like [CA](https://davisnightmarket.github.io/diy/legal.html#california)), so it's worth looking at the specifics for your state.
 
 2. **get a fiscal sponsor**
 
-a fiscal sponsor is basically a 501(c)(3) non-profit that agrees to sponsor you such that you share their 501(c)(3) non-profit status. they also receive your money, so you'll have to send them a budget once a year (which can be $0). 
+A fiscal sponsor is basically a 501(c)(3) non-profit that agrees to sponsor you such that you share their 501(c)(3) non-profit status. they also receive your money, so you'll have to send them a budget once a year (which can be $0). 
 
-relationships with fiscal sponsors may vary, but, luckily, we have a solution for you! 
+Relationships with fiscal sponsors may vary, but, luckily, we have a solution for you! 
 
-our fiscal sponsor, [Left Lovers](https://opencorporates.com/companies/us_ca/201718410104) (yes, it's a real non-profit, not a movie about sexy vampires) is very happy to sponsor food recovery efforts without taking a chunk of your money. the only thing they might ask is a yearly insurance fee to cover your operation. if you're interested in being sponsored by left lovers, fill in [this fiscal sponsorship form](https://drive.google.com/file/d/1Dha31GaLD_fZ1qEfy21PBgq5owvEllJd/view) and contact ernst@freedge.org or nightmarket@freedge.org 
+Our fiscal sponsor, [Left Lovers](https://opencorporates.com/companies/us_ca/201718410104) (yes, it's a real non-profit, not a movie about sexy vampires or a marxist cell) is very happy to sponsor food recovery efforts without taking a chunk of your money. the only thing they might ask is a yearly insurance fee to cover your operation. if you're interested in being sponsored by left lovers, fill in [this fiscal sponsorship form](https://drive.google.com/file/d/1Dha31GaLD_fZ1qEfy21PBgq5owvEllJd/view) and contact ernst@freedge.org.
 
 
 3. **become a 501(c)(3) non-profit** 
 
-might be worth it depending on your needs
+Might be worth it depending on your needs, but i'm sure not gonna get into that here :) 
 
 #### compare your options
 
-here's a good, if slightly caustic toward fiscal sponsors (like i said, i promise left lovers won't actually suck you dry) comparison of your <a href="docs/non-profit-status.pdf" target="_blank">options for acquiring non-profit-status</a> from [big door brigade](http://bigdoorbrigade.com/category/handling-money-and-taxes/), a compilation of resources for mutual aid orgs that's worth checking out either way. 
+Here's a good, if slightly caustic toward fiscal sponsors (like i said, i promise left lovers won't actually suck you dry), comparison of your <a href="docs/non-profit-status.pdf" target="_blank">options for acquiring non-profit-status</a> from [big door brigade](http://bigdoorbrigade.com/category/handling-money-and-taxes/), a compilation of resources for mutual aid orgs that's worth checking out either way. 
+
+### **so you say i'm covered, but i have questions!** 
+
+I know! This is complicated! 
+
+Here are some [FAQs compiled by the USDA](https://www.usda.gov/sites/default/files/documents/usda-good-samaritan-faqs.pdf)
+
+Keep reading for the biggies: 
+
+#### **what kinds of donors are covered?**
+
+This may vary by state, but usually it'll be everyone except private individuals, aka home kitchens. 
+
+“Persons,” “gleaners,” and
+“nonprofit organizations” all receive
+protection from the Bill Emerson Act.
+The very broad category of covered
+persons embraces individuals,
+corporations, partnerships,
+organizations, associations or
+governmental entities. It expressly
+includes retail grocers, wholesalers,
+hotels, motels, manufacturers,
+restaurants, caterers, farmers, and
+nonprofit food distributors or
+hospitals. Protection from liability
+extends to officers, directors,
+partners, deacons, trustees, council
+members, or other elected or
+appointed individuals responsible for
+governance of covered entities. 
+
+(from UARK's [Legal Guide To Food Recovery](https://law.uark.edu/documents/2013/06/Legal-Guide-To-Food-Recovery.pdf))
+
+#### **what food is covered?** 
+
+* **Field gleaning**: The collection of crops from farmers’
+fields that have already been mechanically
+harvested or from fields where it is not economically
+profitable to harvest. Gleaning is also used to
+describe the donation of raw agricultural products
+that have already been harvested and are being
+stored at a farm or packing house.
 
 
-labels: https://www.fda.gov/consumers/consumer-updates/confused-date-labels-packaged-foods
+* **Perishable produce rescue/salvage**: The collection
+of perishable produce from wholesale and retail
+sources, including wholesale markets, supermarkets,
+and farmers’ markets.
 
-## some states have specific laws that may make your life easier
+
+* **Perishable and prepared food rescue**: The collection
+of prepared foods from the food service industry,
+including restaurants, hospital, caterers, and
+cafeterias.
+
+
+* **Nonperishable processed food collection**: The
+collection of processed foods, usually with long shelf
+lives, from sources such as manufacturers,
+supermarkets, distributors, grocery stores, and food
+drives.
+
+
+(from UARK's [Legal Guide To Food Recovery](https://law.uark.edu/documents/2013/06/Legal-Guide-To-Food-Recovery.pdf))
+
+#### **when am i liable?** 
+
+The exemption from liability is not absolute. Acts or omissions constituting
+“gross negligence” or “intentional misconduct” which result in the death or injury
+of “an ultimate user or recipient” are not exempted. 
+
+* **gross negligence**
+
+a “voluntary and conscious conduct (including a failure to act) by a person
+who, at the time of the conduct, knew that the conduct was likely to be harmful
+to the health or well-being of another person.”
+
+A finding of gross negligence requires consideration of several factors,
+including: 
+
+  - the type of food involved
+
+  - the recommended sell by date: 
+
+the recommended sell by date alone should not be determinative; it must be considered in light of the type of food
+involved.
+
+  - the end user of the donated item.
+
+To understand how these first two factors are intended to operate,
+consider the example of the donation of a box of cereal with that of milk or
+chicken addressed in the House Report on the Bill Emerson Act. The “box of
+cereal that is provided to a food pantry just before or even after the date of
+retail sale would be perfectly safe for consumption, whereas a carton of milk or
+container of fresh poultry that is donated just beyond the retail sales date could
+be dangerous to a person’s health.”
+
+* **intentional
+misconduct** 
+
+a “conduct by a person with knowledge (at the time of the
+conduct) that the conduct is harmful to the health or well-being of another
+person.”
+
+(from the [The Legal Guide to the Bill Emerson Good Samaritan Food Donation Act by James Haley](https://law.uark.edu/service-outreach/food-recovery-project/Legal-Guide-to-the-BEA-Haley-Final.pdf))
+
+
+#### **what's the deal with expiration dates, best-by labels, etc?**
+
+Even the FDA says they're BS: https://www.fda.gov/consumers/consumer-updates/confused-date-labels-packaged-foods
+
+Basically ignore best-by dates, pay attention to use-by, but mostly use your senses, including common sense :) 
+
+#### **what if the laws in my state say something different?**
+
+Happily, it doesn't really matter if your state's laws suck more than the federal one because federal trumps state: 
+
+"The Department of Justice (DOJ) Office of Legal Counsel has interpreted the Act (Bill Emerson Act) as preempting state laws that provide less liability protection to donors. Under the DOJ’s interpretation, state laws may provide greater protection against liability, but not less." (from [USDA FAQs](https://www.usda.gov/sites/default/files/documents/usda-good-samaritan-faqs.pdf))
+
+Buuuuut, sometimes, your state's laws can help you out. like if they specifically protect you if you donate expired food directly to individuals (thanks CA!) . so it's worth checking out. 
+
+## **state-specific laws** 
 
 ### california
+
+On January 1, 2018, California enacted the
+California Good Samaritan Food Donation
+Act (AB 1219), which provides liability
+protections for entities that make good faith
+donations of surplus food. The law clarifies
+and expands liability protections for donated
+surplus food by:
+
+* Explicitly stating  that **donation of past-date
+food is subject to liability protection**
+
+* Expanding liability protection to donations
+made by food facilities, which are subject
+to food safety regulations and regular
+inspections, **directly to individuals for
+consumption (direct donation).**
+
+
+[CA food donation laws](https://www.cdph.ca.gov/Programs/CEH/DFDCS/CDPH%20Document%20Library/FDB/FoodSafetyProgram/FoodDonations.pdf)
+
 ### washington state
+
+[WA food donation rules](https://www.doh.wa.gov/communityandenvironment/food/foodworkerandindustry/charityfooddonations)
 
 
 
 # TAX DEDUCTIONS
 
 
-Health and Safety (County)
-
-
-Event reservation (City)

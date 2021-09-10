@@ -23,6 +23,10 @@ navbar:
     href: led_sign.html
   - text: volunteers
     href: volunteers.html
+  - text: freedge
+    href: freedge.html
+  - text: other resources
+    href: fresources.html
   - text: get in touch
     menu:
     - icon: fa-twitter

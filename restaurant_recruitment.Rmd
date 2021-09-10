@@ -1,28 +1,13 @@
 ---
-title: "FOOD RECOVERY"
+title: "DONOR RECRUITMENT"
 output:
   html_document:
     toc: true
     toc_float: true
 ---
 
-# MATERIALS
-
-* Boxes
-must be food grade (needed for permit)
-
-* Teams
-recommended 2 people per location, to minimize the time spent distributing food into boxes.
-
-* Packaging / Cleaning Procedure: food safety practices require food to be removed from its original packaging and stored in a working container that must be food-grade and labeled 
-	Materials: Hand sanitizer, utensils (spoons, ladles, etc. in a plastic bag or a ziploc), sharpie, paper towels/napkins 
-	
-# HOW TO
-Apply hand sanitizer
-Distribute food into individual boxes 
-Label the boxes with the contents (the more detail, the less impulse people will have to open the boxes to see what is inside, which is against code)
-Clean the space (important in order to maintain the goodwill of the donor businesses) 
-Load your bike cart an    d go! :) 
-Unload at distribution location: consumers should not open boxes, if they do, they have to keep them. 
- 
-Establishing a connection with the Donor (consistency): it is recommended to have the same people performing the same pick-ups to establish rapport with the establishment’s employees. In addition, calling the donor business in advance to ask if they have anything to offer is good practice.
+Emails:
+Make a database of all possible donors, classified them according likelihood to have leftovers, closing time and distance to your Night Market spot
+link in our website or social pages to show legitimacy 
+Personally
+Connections
