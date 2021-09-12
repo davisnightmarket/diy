@@ -15,19 +15,17 @@ navbar:
     href: food_recovery.html
   - text: legal
     href: legal.html  
-  - text: build community
+  - text: community
     href: community.html
-  - text: bike trailer
+  - text: build stuff
     href: bikecart.html
-  - text: LED sign
-    href: led_sign.html
-  - text: volunteers
+  - text: organize
     href: volunteers.html
   - text: freedge
     href: freedge.html
-  - text: other resources
-    href: fresources.html
-  - text: get in touch
+  - text: resources
+    href: resources.html
+  - text: contact us!
     menu:
     - icon: fa-twitter
       href: https://twitter.com/DavisNightMrkt

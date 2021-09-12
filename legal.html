@@ -11,7 +11,7 @@
 
 
 
-<title>LEGAL</title>
+<title>HOW TO NIGHT MARKET LEGALLY</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -261,6 +264,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -268,6 +334,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -294,26 +370,23 @@ $(document).ready(function () {
   <a href="legal.html">legal</a>
 </li>
 <li>
-  <a href="community.html">build community</a>
+  <a href="community.html">community</a>
 </li>
 <li>
-  <a href="bikecart.html">bike trailer</a>
+  <a href="bikecart.html">build stuff</a>
 </li>
 <li>
-  <a href="led_sign.html">LED sign</a>
-</li>
-<li>
-  <a href="volunteers.html">volunteers</a>
+  <a href="volunteers.html">organize</a>
 </li>
 <li>
   <a href="freedge.html">freedge</a>
 </li>
 <li>
-  <a href="fresources.html">other resources</a>
+  <a href="resources.html">resources</a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    get in touch
+    contact us!
      
     <span class="caret"></span>
   </a>
@@ -344,58 +417,28 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">LEGAL</h1>
+<h1 class="title toc-ignore">HOW TO NIGHT MARKET LEGALLY</h1>
 
 </div>
 
-<div id="TOC">
-<ul>
-<li><a href="#permits">PERMITS</a><ul>
-<li><a href="#health-and-safety-county">Health and Safety (County)</a></li>
-<li><a href="#event-reservation-city">Event reservation (City)</a></li>
-</ul></li>
-<li><a href="#liability">LIABILITY</a><ul>
-<li><a href="#tldr"><strong>TLDR</strong></a></li>
-<li><a href="#getting-sued-for-donating-food-is-not-a-thing">1. <strong>getting sued for donating food is not a thing</strong></a></li>
-<li><a href="#you-and-your-donors-are-protected-under-federal-law-as-long-as-you-are-a-non-profit">2. <strong>you and your donors are protected under federal law… as long as you are a non-profit</strong></a><ul>
-<li><a href="#cool.-im-not-a-non-profit.-now-what"><strong>cool. i’m not a non-profit. now what?</strong></a></li>
-<li><a href="#so-you-say-im-covered-but-i-have-questions"><strong>so you say i’m covered, but i have questions!</strong></a></li>
-</ul></li>
-<li><a href="#state-specific-laws"><strong>state-specific laws</strong></a><ul>
-<li><a href="#all-states">all states</a></li>
-<li><a href="#california">california</a></li>
-<li><a href="#washington-state">washington state</a></li>
-</ul></li>
-</ul></li>
-<li><a href="#tax-deductions">TAX DEDUCTIONS</a></li>
-</ul>
-</div>
 
-<div id="permits" class="section level1">
-<h1>PERMITS</h1>
-<div id="health-and-safety-county" class="section level2">
-<h2>Health and Safety (County)</h2>
-</div>
-<div id="event-reservation-city" class="section level2">
-<h2>Event reservation (City)</h2>
-</div>
-</div>
+<p><br><br></p>
 <div id="liability" class="section level1">
 <h1>LIABILITY</h1>
 <p>DISCLAIMER: the following only applies to the U.S.</p>
 <div id="tldr" class="section level2">
 <h2><strong>TLDR</strong></h2>
 <p>Here’s a handy <a href="docs/liability_flowchart.pdf" target="_blank">liability flow chart </a> that will get you started.</p>
-<p>Also please check out our friends at <a href="https://freedge.org/">the Freedge</a>’s manifesto <a href="https://drive.google.com/file/d/1O_44v7yoTkj3BIqw6SImhFrfygohMJgv/view">the Liability Myth</a> , that goes into detail of the stigma-perpetuating and non-profit-industrial-complex-supporting implications of all the below.</p>
+<p>Also please check out our friends at <a href="https://freedge.org/">the Freedge</a>’s manifesto <a href="https://drive.google.com/file/d/1O_44v7yoTkj3BIqw6SImhFrfygohMJgv/view">the Liability Myth</a> , that goes into detail about the stigma-perpetuating and non-profit-industrial-complex-supporting implications of all the below.</p>
 <p>For those who want to get in the nitty gritty… keep reading</p>
 <p>So you need to know that</p>
 </div>
 <div id="getting-sued-for-donating-food-is-not-a-thing" class="section level2">
-<h2>1. <strong>getting sued for donating food is not a thing</strong></h2>
+<h2>1. <strong>Getting sued for donating food is not a thing</strong></h2>
 <p>This <a href="https://law.uark.edu/documents/2013/06/Legal-Guide-To-Food-Recovery.pdf">report</a> by the University of Arkansas School of Law found that “lawsuits arising out of the donation or provision of recovered food are extremely uncommon. Indeed, <strong>a thorough search of filings and review of reported decisions did not turn up a single case that involved food donation-related liability</strong> or any attempts to get around the protections offered by the Bill Emerson Act. Additionally, several leading food recovery experts and antihunger advocates report that they are unaware of any such actual or threatened lawsuits. The absence of litigation or other disputes related to food donation demonstrates that fear of lawsuits or other negative publicity related to mishaps with donated food are overstated and largely illusory barriers to food recovery.”</p>
 </div>
 <div id="you-and-your-donors-are-protected-under-federal-law-as-long-as-you-are-a-non-profit" class="section level2">
-<h2>2. <strong>you and your donors are protected under federal law… as long as you are a non-profit</strong></h2>
+<h2>2. <strong>You and your donors are protected under federal law… as long as you are a non-profit</strong></h2>
 <p>If you’re already a non-profit, the federal <a href="https://www.feedingamerica.org/about-us/partners/become-a-product-partner/food-partners"><strong>Bill Emerson Good Samaritan Food Donation Act</strong></a> is your best friend, and will keep you safe as long as you fulfill these 4 requirements:</p>
 <ol style="list-style-type: decimal">
 <li><p>The donation must be made to a nonprofit organization.</p></li>
@@ -405,12 +448,12 @@ $(document).ready(function () {
 </ol>
 <p>For more info:</p>
 <p><a href="docs/Liability Protection Food Donation.pdf" target="_blank">Liability Protection Food Donation.</a></p>
-<div id="cool.-im-not-a-non-profit.-now-what" class="section level3">
-<h3><strong>cool. i’m not a non-profit. now what?</strong></h3>
+<div id="non-profit" class="section level3">
+<h3><strong>Cool. I’m not a non-profit. Now what?</strong></h3>
 <p>It’s ok! You have options</p>
 <ol style="list-style-type: decimal">
-<li><p>you’re probably fine anyway (see <a href="https://davisnightmarket.github.io/diy/legal.html#getting-sued-for-donating-food-is-basically-not-a-thing">point 1</a>). also, seriously, you’re fine if you’re in certain states (like <a href="https://davisnightmarket.github.io/diy/legal.html#california">CA</a>, CO), so it’s worth looking at the specifics for your state. also, good for you, for not being a part of this horrendous system :)</p></li>
-<li><p><strong>get a fiscal sponsor</strong></p></li>
+<li><p>You’re probably fine anyway (see point 1). also, seriously, you’re fine if you’re in certain states (like CA, CO), so it’s worth looking at the specifics for your state. also, good for you, for not being a part of this horrendous system :)</p></li>
+<li><p><strong>Get a fiscal sponsor</strong></p></li>
 </ol>
 <p>A fiscal sponsor is basically a 501(c)(3) non-profit that agrees to sponsor you such that you share their 501(c)(3) non-profit status. they also receive your money, so you’ll have to send them a budget once a year (which can be $0).</p>
 <p>Relationships with fiscal sponsors may vary, but, luckily, we have a solution for you!</p>
@@ -418,28 +461,28 @@ $(document).ready(function () {
 <p>If Left Lovers sounds too much like a free-love anarchist commune for you, here’s a <a href="https://fiscalsponsordirectory.org/">database of local fiscal sponsors</a>.</p>
 <p>“If you are interested in some of the different ways fiscal sponsorship can be done, Gregory Colvin and Stephanie Petit have a good summary of the <a href="https://www.adlercolvin.com/wp-content/uploads/2017/12/Fiscal-Sponorship-Six-Ways-To-Do-It-Right-A-Synopsis.pdf">different types of fiscal sponsorships here</a>” (paraphrased from <a href="http://bigdoorbrigade.com/category/handling-money-and-taxes/">big door brigade</a>)</p>
 <ol start="3" style="list-style-type: decimal">
-<li><strong>become a 501(c)(3) non-profit</strong></li>
+<li><strong>Become a 501(c)(3) non-profit</strong></li>
 </ol>
 <p>Might be worth it depending on your needs, but i’m sure not gonna get into that here :)</p>
 <div id="compare-your-options" class="section level4">
-<h4>compare your options</h4>
+<h4>Compare your options</h4>
 <p>Here’s a good comparison of your <a href="docs/non-profit-status.pdf" target="_blank">options for acquiring non-profit-status</a> from <a href="http://bigdoorbrigade.com/category/handling-money-and-taxes/">big door brigade</a>.</p>
-<p>You might have noticed me citing <a href="http://bigdoorbrigade.com/category/handling-money-and-taxes/">big door brigade</a> twice in a row, and that’s because it’s a compilation of resources for mutual aid orgs that’s worth checking out and because everything Dean Spade touches is amazing.</p>
+<p>You might have noticed me citing <a href="http://bigdoorbrigade.com/category/handling-money-and-taxes/">big door brigade</a> twice in a row, and that’s because it’s a compilation of resources for mutual aid orgs that’s worth checking out and because everything Dean Spade touches is gold.</p>
 </div>
 </div>
 <div id="so-you-say-im-covered-but-i-have-questions" class="section level3">
-<h3><strong>so you say i’m covered, but i have questions!</strong></h3>
+<h3><strong>So you say i’m covered, but i have questions!</strong></h3>
 <p>I know! This is complicated!</p>
 <p>Here are some <a href="https://www.usda.gov/sites/default/files/documents/usda-good-samaritan-faqs.pdf">FAQs compiled by the USDA</a></p>
 <p>Keep reading for the biggies:</p>
 <div id="what-kinds-of-donors-are-covered" class="section level4">
-<h4><strong>what kinds of donors are covered?</strong></h4>
+<h4><strong>What kinds of donors are covered?</strong></h4>
 <p>This may vary by state, but usually it’ll be everyone except private individuals, aka home kitchens.</p>
 <p>“Persons,” “gleaners,” and “nonprofit organizations” all receive protection from the Bill Emerson Act. The very broad category of covered persons embraces individuals, corporations, partnerships, organizations, associations or governmental entities. It expressly includes retail grocers, wholesalers, hotels, motels, manufacturers, restaurants, caterers, farmers, and nonprofit food distributors or hospitals. Protection from liability extends to officers, directors, partners, deacons, trustees, council members, or other elected or appointed individuals responsible for governance of covered entities.</p>
 <p>(from UARK’s <a href="https://law.uark.edu/documents/2013/06/Legal-Guide-To-Food-Recovery.pdf">Legal Guide To Food Recovery</a>)</p>
 </div>
 <div id="what-food-is-covered" class="section level4">
-<h4><strong>what food is covered?</strong></h4>
+<h4><strong>What food is covered?</strong></h4>
 <p>Basically everything.</p>
 <ul>
 <li><p><strong>Field gleaning</strong>: The collection of crops from farmers’ fields that have already been mechanically harvested or from fields where it is not economically profitable to harvest. Gleaning is also used to describe the donation of raw agricultural products that have already been harvested and are being stored at a farm or packing house.</p></li>
@@ -450,37 +493,33 @@ $(document).ready(function () {
 <p>(from UARK’s <a href="https://law.uark.edu/documents/2013/06/Legal-Guide-To-Food-Recovery.pdf">Legal Guide To Food Recovery</a>)</p>
 </div>
 <div id="when-am-i-liable" class="section level4">
-<h4><strong>when am i liable?</strong></h4>
+<h4><strong>When am i liable?</strong></h4>
 <p>Uuuuhm when you’re a d*** and give people rotten food on purpose.</p>
 <p>In legalese:</p>
 <p>The exemption from liability is not absolute. Acts or omissions constituting “gross negligence” or “intentional misconduct” which result in the death or injury of “an ultimate user or recipient” are not exempted.</p>
-<ul>
-<li><strong>gross negligence</strong></li>
-</ul>
-<p>a “voluntary and conscious conduct (including a failure to act) by a person who, at the time of the conduct, knew that the conduct was likely to be harmful to the health or well-being of another person.”</p>
+<p><strong>Gross negligence</strong></p>
+<p>A “voluntary and conscious conduct (including a failure to act) by a person who, at the time of the conduct, knew that the conduct was likely to be harmful to the health or well-being of another person.”</p>
 <p>A finding of gross negligence requires consideration of several factors, including:</p>
 <ul>
-<li><p>the type of food involved</p></li>
-<li><p>the recommended sell by date:</p></li>
+<li><p>The type of food involved</p></li>
+<li><p>The recommended sell by date:</p></li>
 </ul>
-<p>the recommended sell by date alone should not be determinative; it must be considered in light of the type of food involved.</p>
+<p>The recommended sell by date alone should not be determinative; it must be considered in light of the type of food involved.</p>
 <ul>
-<li>the end user of the donated item.</li>
+<li>The end user of the donated item.</li>
 </ul>
 <p>To understand how these first two factors are intended to operate, consider the example of the donation of a box of cereal with that of milk or chicken addressed in the House Report on the Bill Emerson Act. The “box of cereal that is provided to a food pantry just before or even after the date of retail sale would be perfectly safe for consumption, whereas a carton of milk or container of fresh poultry that is donated just beyond the retail sales date could be dangerous to a person’s health.”</p>
-<ul>
-<li><strong>intentional misconduct</strong></li>
-</ul>
+<p><strong>Intentional misconduct</strong></p>
 <p>a “conduct by a person with knowledge (at the time of the conduct) that the conduct is harmful to the health or well-being of another person.”</p>
 <p>(from the <a href="https://law.uark.edu/service-outreach/food-recovery-project/Legal-Guide-to-the-BEA-Haley-Final.pdf">The Legal Guide to the Bill Emerson Good Samaritan Food Donation Act by James Haley</a>)</p>
 </div>
 <div id="whats-the-deal-with-expiration-dates-best-by-labels-etc" class="section level4">
-<h4><strong>what’s the deal with expiration dates, best-by labels, etc?</strong></h4>
+<h4><strong>What’s the deal with expiration dates, best-by labels, etc?</strong></h4>
 <p>Even the FDA says they’re BS: <a href="https://www.fda.gov/consumers/consumer-updates/confused-date-labels-packaged-foods" class="uri">https://www.fda.gov/consumers/consumer-updates/confused-date-labels-packaged-foods</a></p>
 <p>Basically ignore best-by dates, pay attention to use-by, but mostly use your senses, including common sense :)</p>
 </div>
 <div id="what-if-the-laws-in-my-state-say-something-different" class="section level4">
-<h4><strong>what if the laws in my state say something different?</strong></h4>
+<h4><strong>What if the laws in my state say something different?</strong></h4>
 <p>Happily, it doesn’t really matter if your state’s laws suck more than the federal one because federal trumps state:</p>
 <p>“The Department of Justice (DOJ) Office of Legal Counsel has interpreted the Act (Bill Emerson Act) as preempting state laws that provide less liability protection to donors. Under the DOJ’s interpretation, state laws may provide greater protection against liability, but not less.” (from <a href="https://www.usda.gov/sites/default/files/documents/usda-good-samaritan-faqs.pdf">USDA FAQs</a>)</p>
 <p>Buuuuut, sometimes, your state’s laws can help you out. like if they specifically protect you if you donate expired food directly to individuals (thanks CA!) . so it’s worth checking out.</p>
@@ -488,14 +527,14 @@ $(document).ready(function () {
 </div>
 </div>
 <div id="state-specific-laws" class="section level2">
-<h2><strong>state-specific laws</strong></h2>
+<h2><strong>State-specific laws</strong></h2>
 <div id="all-states" class="section level3">
-<h3>all states</h3>
+<h3>All states</h3>
 <p>slightly outdated LOL: <a href="docs/state_liability_protection.pdf" target="_blank">liability protection by state (2017).</a></p>
 <p>(from the Harvard Law School Food Law and Policy Clinic <a href="https://www.chlpi.org/wp-content/uploads/2013/12/Dont-Waste-Donate_-March-2017.pdf">Dont Waste Donate</a>)</p>
 </div>
 <div id="california" class="section level3">
-<h3>california</h3>
+<h3>California</h3>
 <p>On January 1, 2018, California enacted the California Good Samaritan Food Donation Act (AB 1219), which provides liability protections for entities that make good faith donations of surplus food. The law clarifies and expands liability protections for donated surplus food by:</p>
 <ul>
 <li><p>Explicitly stating that <strong>donation of past-date food is subject to liability protection</strong></p></li>
@@ -505,17 +544,143 @@ $(document).ready(function () {
 <p><a href="https://www.cdph.ca.gov/Programs/CEH/DFDCS/CDPH%20Document%20Library/FDB/FoodSafetyProgram/FoodDonations.pdf">CA food donation laws</a></p>
 </div>
 <div id="washington-state" class="section level3">
-<h3>washington state</h3>
+<h3>Washington State</h3>
 <p><a href="https://www.doh.wa.gov/communityandenvironment/food/foodworkerandindustry/charityfooddonations">WA food donation rules</a></p>
 </div>
 </div>
 </div>
+<div id="permits" class="section level1">
+<h1>PERMITS</h1>
+<p>Ok great! Now we got all scary liability stuff out of the way, you want to start giving away some food! So if your goal is to keep things legal, you’re going to need spme permits.</p>
+<p>This stuff varies a lot by state, so it may take some figuring out, but I’m going to walk through what you need in CA:</p>
+<div id="food-operation-health-permit" class="section level2">
+<h2>FOOD OPERATION/ HEALTH PERMIT</h2>
+<p>The health permit you need is going to depend on:</p>
+<ul>
+<li>The type of food you’re going to be dealing with:
+<ul>
+<li>perishable (ex: meat, dairy, cooked meals)</li>
+<li>non-perishable (cans, bread)</li>
+<li>produce (fruits, vegeables, nuts)</li>
+</ul></li>
+<li>What you’re going to do with that food: storing, portioning, reheating, cooking…</li>
+</ul>
+<p>The Night Market recovers food from restaurants and other eateries, so you’ll be dealing with perishable food (cooked meals) as well as non-perishables and produce. In addition, you’ll often have to do same day storage and portion out the food into individual containers.</p>
+<p>You will have to go to your local county web page, usually under environmental health or food safety, and find the application form for a food operation or equivalent permit.</p>
+<div id="ca-specific" class="section level3">
+<h3>CA-specific</h3>
+<p>In CA, as of 2019 there’s a new category of food operation called LSCFO thanks to Assembly Bill (AB) 2178, which “defined a <strong>limited service charitable feeding operation (LSCFO</strong>) as a nonprofit charitable organization that provides food service to a consumer solely for providing charit and exempts LSCFO from the definition of a food facility.”</p>
+<p>(from <a href="https://www.sfdph.org/dph/EH/Food/lscfo.asp" class="uri">https://www.sfdph.org/dph/EH/Food/lscfo.asp</a>)</p>
+<p>Everyone loves a good flowchart. Here is the <a href="docs/LSCFO_flowchart.pdf" target="_blank">LSCFO flow chart </a> that will get you started.</p>
+<p>At our Night Market, because we deal with perishables and commercially prepared foods that we portion out ourselves that we redistribute on the same day, and we are not partnered with a food bank, we are registered as a <strong>LSCFO category 3</strong>.</p>
+<div id="how-do-i-register" class="section level5">
+<h5>How do i register?</h5>
+<ul>
+<li><p>Fill in your local county LSCFO application. This is the information you’ll have to provide</p>
+<ul>
+<li>Name, physical address, internet website, and telephone number of the nonprofit charitable organization conducting the LSCFO.</li>
+<li>Name and contact information of a site representative of the LSCFO.</li>
+<li>Operating days and hours of the LSCFO.</li>
+</ul></li>
+<li><p>Pay a fee. Yep. It’s around $200.</p></li>
+</ul>
+</div>
+<div id="lscfo---dos-and-donts" class="section level4">
+<h4><strong>LSCFO - dos and donts</strong>:</h4>
+<div id="do-we-need-food-safety-training" class="section level5">
+<h5><strong>Do we need food safety training?</strong></h5>
+<p>Nope, it’s not required, you just need to follow Best Management practices (BMP). Here’s a summary of those provided by our own Yolo County (<a href="docs/LSCFO_flowchart.pdf" target="_blank">BMP </a>), but I’m going to go over the key aspects below.</p>
+</div>
+<div id="where-can-food-be-served" class="section level5">
+<h5><strong>Where can food be served?</strong></h5>
+<ul>
+<li><p>At the LSCFO facility</p></li>
+<li><p>Outdoors <strong>for up to 4h a day</strong>. For this you’ll need a permit with the local city parks department or equivalent (see below)</p></li>
+</ul>
+</div>
+<div id="what-food-can-be-served" class="section level5">
+<h5><strong>What food can be served?</strong></h5>
+<p>everything (INCLUDING EXPIRED FOOD) except</p>
+<ul>
+<li>Cooked food from unregistered home kitchens
+<ul>
+<li>“microenterprise” home kitchens are allowed (see <a href="https://foodnome.com/">Foodnome</a>)</li>
+<li>commercially pre-packaged foods, baked goods are allowed.</li>
+</ul></li>
+<li>Salvage operations</li>
+</ul>
+<p>So i guess no dumpster diving treasures :(</p>
+<ul>
+<li>Expired baby food and infant formula.</li>
+</ul>
+</div>
+<div id="equipment-utensils-food-containers" class="section level5">
+<h5><strong>Equipment, utensils, food containers</strong></h5>
+<p>Must be food-grade</p>
+</div>
+<div id="food-storage" class="section level5">
+<h5><strong>Food storage</strong></h5>
+<p>THIS IS IMPORTANT</p>
+<ul>
+<li><p>All food</p>
+<ul>
+<li>at least six inches off the floor or on a pallet</li>
+<li>not be stored in restrooms or garages</li>
+<li>raw produce should be stored below ready-to-eat foods to prevent accidental cross-contamination.</li>
+</ul></li>
+<li><p><strong>Potentially hazardous food (PHF)</strong>: (i.e., deli meats, dairy products, cooked meats, cooked rice, cooked vegetables, etc.) are perishable and must be kept at 41°F or below. They can leave cold storage for:</p>
+<ul>
+<li>up to 30 minutes for transport</li>
+<li>up to 2 hours for active preparation or portioning</li>
+<li>up to 4 hours at a time in total. <strong>After 4h they should be served immediately or dumped.</strong></li>
+</ul></li>
+</ul>
+<p>A permanently affixed thermometer in cold holding equipment used for PHFs is readily visible and placed in the warmest part of each refrigeration unit.</p>
+</div>
+<div id="how-to-serve-food" class="section level5">
+<h5><strong>How to serve food</strong></h5>
+<ul>
+<li>Hair must be contained</li>
+<li>Food must be covered and protected</li>
+<li>For portioning, use food-grade containers and label them.</li>
+<li>If food has been served to someone, it can’t be returned and served to someone else</li>
+<li>Use commercial-grade hand sanitaizer or a handwash station to wash hands previously</li>
+</ul>
+<p>Basically what this means is that you’ll have to keep an eye out to make sure people don’t open boxes and then leave them there, as those boxes are theoretically not fit for human consumption anymore.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="event-permit" class="section level2">
+<h2>EVENT PERMIT</h2>
+<p>You will have to go to your local city web page, usually under Parks and Rec, and find the application form for an event or space reservation permit.</p>
+<p>It will look something like this: <a href="https://www.cityofdavis.org/home/showpublisheddocument/16217/637641194986770000">Application Fields and Picnic</a></p>
+</div>
+</div>
 <div id="tax-deductions" class="section level1">
 <h1>TAX DEDUCTIONS</h1>
+<p>Wow ok, you’re good to go to start donating food!! The last thing we’re going to talk about is the cherry on top for some businesses, which is that they get tax deductions for donating stuff, and people loooooove not paying taxes. So if you want to potentially attract some donors this way, here’s how to do it.</p>
+<ol style="list-style-type: decimal">
+<li>You have to be a non-profit.</li>
+</ol>
+<p>Yep. To offer tax deductions to any business you’re going to have to have 501(c)(3) non profit status, so that means either you’ve done the paperwork to become one, or you’re fiscally sponsored by one (see previous section <a href="#non-profit">i’m not a non-profit</a>)</p>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Your non-profit must serve the needy</p></li>
+<li><p>Your non-profit does not charge money</p></li>
+</ol>
+<p>You should be able to provide to the donating business a statement with the following:</p>
+<ul>
+<li>a description of the donated food, with the date</li>
+<li>a statement that it’ll be used 1) by a non-profit that 2) serves the needy and 3) does not charge money</li>
+<li>a statement that adequate records will be kept and made available to the IRS upon request.</li>
+</ul>
+<p>Good resource: <a href="https://www.chlpi.org/wp-content/uploads/2013/12/Food-Donation-Fed-Tax-Guide-for-Pub-2.pdf">Lagal Guide: Tax Deduction for Food Donation</a></p>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -548,6 +713,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
