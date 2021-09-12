@@ -7,7 +7,7 @@ output:
 ---
 <br><br>
 
-# LIABILITY
+# **LIABILITY**
 
 DISCLAIMER: the following only applies to the U.S. 
 
@@ -242,8 +242,9 @@ consumption (direct donation).**
 
 [WA food donation rules](https://www.doh.wa.gov/communityandenvironment/food/foodworkerandindustry/charityfooddonations)
 
+<br><br>
 
-# PERMITS
+# **PERMITS**
 
 Ok great! Now we got all scary liability stuff out of the way, you want to start giving away some food! So if your goal is to keep things legal, you're going to need spme permits. 
 
@@ -253,14 +254,25 @@ This stuff varies a lot by state, so it may take some figuring out, but I'm goin
 
 The health permit you need is going to depend on: 
 
-* The type of food you're going to be dealing with:  
-  - perishable (ex: meat, dairy, cooked meals)
-  - non-perishable (cans, bread)
-  - produce (fruits, vegeables, nuts)  
 
+
+* The type of food you're going to be dealing with: 
+      <img src="photos/delicious-food-cartoon.jpeg" style="width:100px;height:100px;" align="right">
+        <img src="photos/non-perishable.jpeg" style="width:130px;height:130px;" align="right">
+  - perishable (ex: meat, dairy, cooked meals)
+
+    
+  - non-perishable (cans, bread)
+
+  - produce (fruits, vegeables, nuts)  
+  
 * What you're going to do with that food: storing, portioning, reheating, cooking... 
 
+ <img src="photos/portioning.jpeg" style="width:100px;height:100px;" align="right">
+
 The Night Market recovers food from restaurants and other eateries, so you'll be dealing with  perishable food (cooked meals) as well as non-perishables and produce. In addition, you'll often have to do same day storage and portion out the food into individual containers. 
+
+
 
 You will have to go to your local county web page, usually under environmental health or food safety, and find the application form for a food operation or equivalent permit. 
 
@@ -328,12 +340,18 @@ THIS IS IMPORTANT
   
   
 * **Potentially hazardous food (PHF)**: (i.e., deli meats, dairy products, cooked meats, cooked rice, cooked vegetables, etc.) are perishable and must be kept at 41°F or below.  They can leave cold storage for: 
+<img src="photos/perishable_food_timing.png" style="width:220px;height:220px;" align="right">
+
   - up to 30 minutes for transport
   - up to 2 hours for active preparation or portioning
   - up to 4 hours at a time in total. **After 4h they should be served immediately or dumped.**
-
+  
+  <img src="photos/temperaturedangerzone.png" style="width:200px;height:200px;" align="right">
+<br>
+ 
 A permanently affixed thermometer in cold holding equipment used for PHFs is readily visible and placed in the warmest part of each refrigeration unit.
 
+<br>
 
 ##### **How to serve food**
 
@@ -349,15 +367,21 @@ Basically what this means is that you'll have to keep an eye out to make sure pe
 
 ## EVENT PERMIT
 
+ <img src="photos/1S9A8354.jpg" style="width:200px;height:200px;" align="right">
+<br>
 You will have to go to your local city web page, usually under Parks and Rec, and find the application form for an event or space reservation permit. 
 
 It will look something like this: [Application Fields and Picnic](https://www.cityofdavis.org/home/showpublisheddocument/16217/637641194986770000)
 
 
-# TAX DEDUCTIONS
+
+<br><br>
+
+# **TAX DEDUCTIONS**
 
 Wow ok, you're good to go to start donating food!! The last thing we're going to talk about is the cherry on top for some businesses, which is that they get tax deductions for donating stuff, and people loooooove not paying taxes. So if you want to potentially attract some donors this way, here's how to do it. 
 
+### Requirements for you to receive donations
 
 1)  You have to be a non-profit. 
 
@@ -365,20 +389,21 @@ Yep. To offer tax deductions to any business you're going to have to have 501(c)
 
 2) Your non-profit must serve the needy
 
-3) Your non-profit does not charge money
+3) Your non-profit must not charge money
 
+### What you have to provide the donor
 
 You should be able to provide to the donating business a statement with the following: 
 
-  - a description of the donated food, with the date
-  - a statement that it'll be used 1) by a non-profit that 2) serves the needy and 3) does not charge money
-  - a statement that adequate records will be kept and made available to the IRS upon request. 
+1) a description of the donated food, with the date
+2) a statement that it'll be used 1) by a non-profit that 2) serves the needy and 3) does not charge money. 
+3) a statement that you're a tax-exempt non-profit (under federal I.R.C 501(c)(3) (yeah idk what that means either)) and you'll have to provide the tax-exempt identification number (it should look something like this:  [affidavit for exemption](https://www.yolocounty.org/home/showdocument?id=21188))
+4) a statement that adequate records will be kept and made available to the IRS upon request. 
   
+As the people who are receiving the donation, that's all you gotta know, the donor can figure out the rest (aka how much taxes they don't have to pay).
 
+### Resources 
 
-
-
-Good resource: 
 [Legal Guide: Tax Deduction for Food Donation](https://www.chlpi.org/wp-content/uploads/2013/12/Food-Donation-Fed-Tax-Guide-for-Pub-2.pdf)
 
 
