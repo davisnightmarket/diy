@@ -1,28 +1,161 @@
 ---
-title: "FOOD RECOVERY"
+title: "HOW TO DO NIGHT MARKET"
 output:
   html_document:
     toc: true
     toc_float: true
 ---
 
-# MATERIALS
+# **FOOD RECOVERY** 
 
-* Boxes
-must be food grade (needed for permit)
+## YOU NEED 
 
-* Teams
-recommended 2 people per location, to minimize the time spent distributing food into boxes.
+### Materials
 
-* Packaging / Cleaning Procedure: food safety practices require food to be removed from its original packaging and stored in a working container that must be food-grade and labeled 
-	Materials: Hand sanitizer, utensils (spoons, ladles, etc. in a plastic bag or a ziploc), sharpie, paper towels/napkins 
+**Equipment, utensils and food containers must all be food-grade!!**
+
+* Boxes: carboard, food-grade
+* Hand sanitizer
+* Utensils: store these in a plastic bag or a ziploc and clean them when you're done
+
+  * spoons
+  * ladles
+  * tongs
+* Sharpie
+* Paper towels/napkins 
+* Table cover 
+
+COVID precautions require
+
+* Gloves
+* Mask 
+
+### Team
+Recommended 2 people per location, to minimize the time spent distributing food into boxes. It is recommended to have the same people performing the same pick-ups to establish rapport with the establishment’s employees. In addition, calling the donor business in advance to ask if they have anything to offer is good practice.
+
+### Transport 
+
+At Night Market we're committed to sustainability: we believe that burning fossil fuels to prevent food waste from emitting methane in a landfill is something of an oxymoron. That's why, where local bike infrastructure allows, we perform all food pick-ups using bike trailers. To learn how to build your own LED-lit bike trailer, check out the section on [how to build night market stuff ](https://davisnightmarket.github.io/diy/build) 
+
 	
-# HOW TO
-Apply hand sanitizer
-Distribute food into individual boxes 
-Label the boxes with the contents (the more detail, the less impulse people will have to open the boxes to see what is inside, which is against code)
-Clean the space (important in order to maintain the goodwill of the donor businesses) 
-Load your bike cart an    d go! :) 
-Unload at distribution location: consumers should not open boxes, if they do, they have to keephttps://jardineriakuka.com/plantas-arboles-ornamentales/5364-catalpa-bungei.html them. 
+## HOW TO
+
+### **How to find donors**
+
+Check out the section on [restaurant recruitment]()
+
+
+### **How to choose a time and place for the event**
+
+
+
+### **How to serve food**
+ <p style="text-align:center;">
+<img src="photos/1S9A8363.jpg" style="width:500px;height:400px;"><p>
+
+If required by the business, call previously to ask if they have donations. 
+
+1. Contain your hair, put on gloves and apply hand sanitizer
+
+2. Portion food into individual boxes 
+
+    * using food-grade utensils
+    * the boxes should be food-grade and compostable
+    
+   <img src="photos/portioning.jpeg" style="width:100px;height:100px;" >
+  
+3. Label the boxes with the contents
+
+    The more detail, the less impulse people will have to open the boxes to see what is inside, which is against the health code. 
+
+4. Clean the space 
+
+    Important in order to maintain the goodwill of the donor businesses. 
+
+5. Load your bike trailer and go! :) 
+
+6. Unload at distribution location
+
+7. Put on gloves and apply hand sanitizer again 
+
+8. Serve the food to the customers
+
+    * consumers should not open boxes, if they do, they have to keep them. 
+    * food must be covered and protected 
+    
+  
+#### COVID precautions
+
+To avoid causing aglomerations of people around the food, our current system is to spread the food out on a long wall, where night market volunteers stand on one side and the consumers line up on the other. Then consumers approach the wall one by one, volunteers describe and illuminate the food items and hand the desired items to the consumer individually, using tongs and wearing gloves. 
+
+### **How to comply with CA health permit requirements**
+
+The Night Market event shouldn't last more than 4 hours, as that is the maximum time perishable food can be outside of refrigeration, and also the maximum time food can be served outdoors. 
+
+Our Davis Night Market lasts 2 hours, from 9-11PM, as this is the time most businesses close and we recover food at closing time. 
+
+
+#### **Do we need food safety training?**
+
+Nope, it's not required, you just need to follow Best Management practices (BMP). Here's a summary of those provided by our own Yolo County (<a href="docs/LSCFO_flowchart.pdf" target="_blank">BMP </a>), but I'm going to go over the key aspects below. 
+
+#### **Where can food be served?** 
+
+Outdoors **for up to 4h a day**.
+
+#### **What food can be served?** 
+
+Everything (including expired food) 
+
+**Exceptions** 
+
+* Cooked food from unregistered home kitchens
+  - "microenterprise" home kitchens are allowed (see [Foodnome](https://foodnome.com/))
+  - commercially pre-packaged foods, baked goods are allowed.
+
+* Salvage operations (So i guess no dumpster diving treasures :( ) 
+
+* Expired baby food and infant formula. 
+
+
+#### **Food storage**
+
+THIS IS IMPORTANT !!!
+
+**Potentially hazardous food (PHF)**: (i.e., deli meats, dairy products, cooked meats, cooked rice, cooked vegetables, etc.) are perishable and must be kept at 41°F or below.  They can leave cold storage for: 
+
+  - up to 30 minutes for transport
+  - up to 2 hours for active preparation or portioning
+  - up to 4 hours at a time in total. **After 4h they should be served immediately or dumped.**
+  
+<img src="photos/perishable_food_timing.png" style="width:300px;height:300px;" align="center">
+  
+
+# **COMMUNITY** 
+
+Building community is one of the goals of Night Market. Food brings people together, and at Night Market we seek to welcome folx from all walks of life. Making the redistribution of donated food an enjoyable experience where we can gather, get to know each other and share a meal helps alleviate the stigma associated with food insecurity and free things (because capitalism).
+
+Talking with and showing love to strangers might be the most important part of Night Market; people are often not just hungry for food but for company, and this was especially clear during the pandemic. 
+
+## YOU NEED 
+
+### Materials
+
+* Speaker
+
+ For music!!
  
-Establishing a connection with the Donor (consistency): it is recommended to have the same people performing the same pick-ups to establish rapport with the establishment’s employees. In addition, calling the donor business in advance to ask if they have anything to offer is good practice.
+* LED lights
+
+People will see the event at night and creates a vibe
+
+
+### Team
+
+It's helpful to have "greeters" or "welcomers", that is, team members with the specific role of engaging with the community apart from those serving the food. 
+
+## HOW TO
+
+PARTY!!
+
+</h4><div class="main-photo"><img src="photos/1S9A8421.jpg"></div></h4>

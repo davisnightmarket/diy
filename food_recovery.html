@@ -11,14 +11,23 @@
 
 
 
-<title>FOOD RECOVERY</title>
+<title>HOW TO DO NIGHT MARKET</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
@@ -38,11 +47,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -55,32 +59,6 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
 
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -92,10 +70,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -112,40 +86,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h2 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h3 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h4 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h5 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h6 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -173,7 +120,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -185,7 +132,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -196,10 +143,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -211,7 +171,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -337,7 +296,7 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -356,33 +315,21 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">night market DIY guides</a>
+      <a class="navbar-brand" href="index.html">DIY night market</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">about</a>
-</li>
-<li>
-  <a href="food_recovery.html">food recovery</a>
+  <a href="food_recovery.html">how to do night market</a>
 </li>
 <li>
   <a href="legal.html">legal</a>
 </li>
 <li>
-  <a href="community.html">community</a>
-</li>
-<li>
   <a href="bikecart.html">build stuff</a>
 </li>
 <li>
-  <a href="volunteers.html">organize</a>
-</li>
-<li>
-  <a href="freedge.html">freedge</a>
-</li>
-<li>
-  <a href="resources.html">resources</a>
+  <a href="organize.html">organize</a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -392,14 +339,26 @@ div.tocify {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="https://twitter.com/DavisNightMrkt">
-        <span class="fas fa-twitter"></span>
+      <a href="mailto:nightmarket@freedge.org">
+        <span class="fa fa-envelope"></span>
          
       </a>
     </li>
     <li>
-      <a href="mailto:nightmarket@freedge.org">
-        <span class="fas fa-envelope"></span>
+      <a href="https://www.instagram.com/davisnightmarket/">
+        <span class="fa fa-instagram"></span>
+         
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com/DavisNightMrkt">
+        <span class="fa fa-twitter"></span>
+         
+      </a>
+    </li>
+    <li>
+      <a href="https://www.facebook.com/davisnightmarket">
+        <span class="fa fa-facebook"></span>
          
       </a>
     </li>
@@ -413,27 +372,162 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
-<h1 class="title toc-ignore">FOOD RECOVERY</h1>
+<h1 class="title toc-ignore">HOW TO DO NIGHT MARKET</h1>
 
 </div>
 
 
-<div id="materials" class="section level1">
-<h1>MATERIALS</h1>
+<div id="food-recovery" class="section level1">
+<h1><strong>FOOD RECOVERY</strong></h1>
+<div id="you-need" class="section level2">
+<h2>YOU NEED</h2>
+<div id="materials" class="section level3">
+<h3>Materials</h3>
+<p><strong>Equipment, utensils and food containers must all be food-grade!!</strong></p>
 <ul>
-<li><p>Boxes must be food grade (needed for permit)</p></li>
-<li><p>Teams recommended 2 people per location, to minimize the time spent distributing food into boxes.</p></li>
-<li><p>Packaging / Cleaning Procedure: food safety practices require food to be removed from its original packaging and stored in a working container that must be food-grade and labeled Materials: Hand sanitizer, utensils (spoons, ladles, etc. in a plastic bag or a ziploc), sharpie, paper towels/napkins</p></li>
+<li><p>Boxes: carboard, food-grade</p></li>
+<li><p>Hand sanitizer</p></li>
+<li><p>Utensils: store these in a plastic bag or a ziploc and clean them when you’re done</p>
+<ul>
+<li>spoons</li>
+<li>ladles</li>
+<li>tongs</li>
+</ul></li>
+<li><p>Sharpie</p></li>
+<li><p>Paper towels/napkins</p></li>
+<li><p>Table cover</p></li>
+</ul>
+<p>COVID precautions require</p>
+<ul>
+<li>Gloves</li>
+<li>Mask</li>
 </ul>
 </div>
-<div id="how-to" class="section level1">
-<h1>HOW TO</h1>
-<p>Apply hand sanitizer Distribute food into individual boxes Label the boxes with the contents (the more detail, the less impulse people will have to open the boxes to see what is inside, which is against code) Clean the space (important in order to maintain the goodwill of the donor businesses) Load your bike cart an d go! :) Unload at distribution location: consumers should not open boxes, if they do, they have to keephttps://jardineriakuka.com/plantas-arboles-ornamentales/5364-catalpa-bungei.html them.</p>
-<p>Establishing a connection with the Donor (consistency): it is recommended to have the same people performing the same pick-ups to establish rapport with the establishment’s employees. In addition, calling the donor business in advance to ask if they have anything to offer is good practice.</p>
+<div id="team" class="section level3">
+<h3>Team</h3>
+<p>Recommended 2 people per location, to minimize the time spent distributing food into boxes. It is recommended to have the same people performing the same pick-ups to establish rapport with the establishment’s employees. In addition, calling the donor business in advance to ask if they have anything to offer is good practice.</p>
+</div>
+<div id="transport" class="section level3">
+<h3>Transport</h3>
+<p>At Night Market we’re committed to sustainability: we believe that burning fossil fuels to prevent food waste from emitting methane in a landfill is something of an oxymoron. That’s why, where local bike infrastructure allows, we perform all food pick-ups using bike trailers. To learn how to build your own LED-lit bike trailer, check out the section on <a href="https://davisnightmarket.github.io/diy/build">how to build night market stuff</a></p>
+</div>
+</div>
+<div id="how-to" class="section level2">
+<h2>HOW TO</h2>
+<div id="how-to-find-donors" class="section level3">
+<h3><strong>How to find donors</strong></h3>
+<p>Check out the section on <a href="">restaurant recruitment</a></p>
+</div>
+<div id="how-to-choose-a-time-and-place-for-the-event" class="section level3">
+<h3><strong>How to choose a time and place for the event</strong></h3>
+</div>
+<div id="how-to-serve-food" class="section level3">
+<h3><strong>How to serve food</strong></h3>
+<p style="text-align:center;">
+<img src="photos/1S9A8363.jpg" style="width:500px;height:400px;">
+<p>
+<p>If required by the business, call previously to ask if they have donations.</p>
+<ol style="list-style-type: decimal">
+<li><p>Contain your hair, put on gloves and apply hand sanitizer</p></li>
+<li><p>Portion food into individual boxes</p>
+<ul>
+<li>using food-grade utensils</li>
+<li>the boxes should be food-grade and compostable</li>
+</ul>
+<p><img src="photos/portioning.jpeg" style="width:100px;height:100px;" ></p></li>
+<li><p>Label the boxes with the contents</p>
+<p>The more detail, the less impulse people will have to open the boxes to see what is inside, which is against the health code.</p></li>
+<li><p>Clean the space</p>
+<p>Important in order to maintain the goodwill of the donor businesses.</p></li>
+<li><p>Load your bike trailer and go! :)</p></li>
+<li><p>Unload at distribution location</p></li>
+<li><p>Put on gloves and apply hand sanitizer again</p></li>
+<li><p>Serve the food to the customers</p>
+<ul>
+<li>consumers should not open boxes, if they do, they have to keep them.</li>
+<li>food must be covered and protected</li>
+</ul></li>
+</ol>
+<div id="covid-precautions" class="section level4">
+<h4>COVID precautions</h4>
+<p>To avoid causing aglomerations of people around the food, our current system is to spread the food out on a long wall, where night market volunteers stand on one side and the consumers line up on the other. Then consumers approach the wall one by one, volunteers describe and illuminate the food items and hand the desired items to the consumer individually, using tongs and wearing gloves.</p>
+</div>
+</div>
+<div id="how-to-comply-with-ca-health-permit-requirements" class="section level3">
+<h3><strong>How to comply with CA health permit requirements</strong></h3>
+<p>The Night Market event shouldn’t last more than 4 hours, as that is the maximum time perishable food can be outside of refrigeration, and also the maximum time food can be served outdoors.</p>
+<p>Our Davis Night Market lasts 2 hours, from 9-11PM, as this is the time most businesses close and we recover food at closing time.</p>
+<div id="do-we-need-food-safety-training" class="section level4">
+<h4><strong>Do we need food safety training?</strong></h4>
+<p>Nope, it’s not required, you just need to follow Best Management practices (BMP). Here’s a summary of those provided by our own Yolo County (<a href="docs/LSCFO_flowchart.pdf" target="_blank">BMP </a>), but I’m going to go over the key aspects below.</p>
+</div>
+<div id="where-can-food-be-served" class="section level4">
+<h4><strong>Where can food be served?</strong></h4>
+<p>Outdoors <strong>for up to 4h a day</strong>.</p>
+</div>
+<div id="what-food-can-be-served" class="section level4">
+<h4><strong>What food can be served?</strong></h4>
+<p>Everything (including expired food)</p>
+<p><strong>Exceptions</strong></p>
+<ul>
+<li><p>Cooked food from unregistered home kitchens</p>
+<ul>
+<li>“microenterprise” home kitchens are allowed (see <a href="https://foodnome.com/">Foodnome</a>)</li>
+<li>commercially pre-packaged foods, baked goods are allowed.</li>
+</ul></li>
+<li><p>Salvage operations (So i guess no dumpster diving treasures :( )</p></li>
+<li><p>Expired baby food and infant formula.</p></li>
+</ul>
+</div>
+<div id="food-storage" class="section level4">
+<h4><strong>Food storage</strong></h4>
+<p>THIS IS IMPORTANT !!!</p>
+<p><strong>Potentially hazardous food (PHF)</strong>: (i.e., deli meats, dairy products, cooked meats, cooked rice, cooked vegetables, etc.) are perishable and must be kept at 41°F or below. They can leave cold storage for:</p>
+<ul>
+<li>up to 30 minutes for transport</li>
+<li>up to 2 hours for active preparation or portioning</li>
+<li>up to 4 hours at a time in total. <strong>After 4h they should be served immediately or dumped.</strong></li>
+</ul>
+<p><img src="photos/perishable_food_timing.png" style="width:300px;height:300px;" align="center"></p>
+</div>
+</div>
+</div>
+</div>
+<div id="community" class="section level1">
+<h1><strong>COMMUNITY</strong></h1>
+<p>Building community is one of the goals of Night Market. Food brings people together, and at Night Market we seek to welcome folx from all walks of life. Making the redistribution of donated food an enjoyable experience where we can gather, get to know each other and share a meal helps alleviate the stigma associated with food insecurity and free things (because capitalism).</p>
+<p>Talking with and showing love to strangers might be the most important part of Night Market; people are often not just hungry for food but for company, and this was especially clear during the pandemic.</p>
+<div id="you-need-1" class="section level2">
+<h2>YOU NEED</h2>
+<div id="materials-1" class="section level3">
+<h3>Materials</h3>
+<ul>
+<li>Speaker</li>
+</ul>
+<p>For music!!</p>
+<ul>
+<li>LED lights</li>
+</ul>
+<p>People will see the event at night and creates a vibe</p>
+</div>
+<div id="team-1" class="section level3">
+<h3>Team</h3>
+<p>It’s helpful to have “greeters” or “welcomers”, that is, team members with the specific role of engaging with the community apart from those serving the food.</p>
+</div>
+</div>
+<div id="how-to-1" class="section level2">
+<h2>HOW TO</h2>
+<p>PARTY!!</p>
+</h4>
+<div class="main-photo">
+<img src="photos/1S9A8421.jpg">
+</div>
+</h4>
+</div>
 </div>
 
 
@@ -465,7 +559,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
@@ -474,6 +568,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')

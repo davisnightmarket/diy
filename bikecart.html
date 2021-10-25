@@ -11,14 +11,23 @@
 
 
 
-<title>RE-BUILD A USED BIKE TRAILER</title>
+<title>HOW TO BUILD NIGHT MARKET STUFF</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
@@ -38,11 +47,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -55,32 +59,6 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
 
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -92,10 +70,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -112,40 +86,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h2 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h3 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h4 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h5 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h6 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -173,7 +120,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -185,7 +132,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -196,10 +143,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -211,7 +171,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -337,7 +296,7 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -356,33 +315,21 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">night market DIY guides</a>
+      <a class="navbar-brand" href="index.html">DIY night market</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">about</a>
-</li>
-<li>
-  <a href="food_recovery.html">food recovery</a>
+  <a href="food_recovery.html">how to do night market</a>
 </li>
 <li>
   <a href="legal.html">legal</a>
 </li>
 <li>
-  <a href="community.html">community</a>
-</li>
-<li>
   <a href="bikecart.html">build stuff</a>
 </li>
 <li>
-  <a href="volunteers.html">organize</a>
-</li>
-<li>
-  <a href="freedge.html">freedge</a>
-</li>
-<li>
-  <a href="resources.html">resources</a>
+  <a href="organize.html">organize</a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -392,14 +339,26 @@ div.tocify {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="https://twitter.com/DavisNightMrkt">
-        <span class="fas fa-twitter"></span>
+      <a href="mailto:nightmarket@freedge.org">
+        <span class="fa fa-envelope"></span>
          
       </a>
     </li>
     <li>
-      <a href="mailto:nightmarket@freedge.org">
-        <span class="fas fa-envelope"></span>
+      <a href="https://www.instagram.com/davisnightmarket/">
+        <span class="fa fa-instagram"></span>
+         
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com/DavisNightMrkt">
+        <span class="fa fa-twitter"></span>
+         
+      </a>
+    </li>
+    <li>
+      <a href="https://www.facebook.com/davisnightmarket">
+        <span class="fa fa-facebook"></span>
          
       </a>
     </li>
@@ -413,15 +372,17 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
-<h1 class="title toc-ignore">RE-BUILD A USED BIKE TRAILER</h1>
+<h1 class="title toc-ignore">HOW TO BUILD NIGHT MARKET STUFF</h1>
 
 </div>
 
 
+<div id="re-build-a-used-bike-trailer" class="section level1">
+<h1><strong>RE-BUILD A USED BIKE TRAILER</strong></h1>
 </h4>
 <div class="main-photo">
 <img src="photos/1S9A8374.jpg">
@@ -432,8 +393,10 @@ div.tocify {
 <li><p>a wooden box: this provides a sturdier frame and can allow increased food capacity.</p></li>
 <li><p>LED-lit signs and lights: improves the visibility of night market riders, thus increasing their safety during night-time food pick-ups and also increasing recognizability in the community.</p></li>
 </ul>
-<div id="materials" class="section level1">
-<h1>MATERIALS</h1>
+<div id="you-need" class="section level2">
+<h2>YOU NEED</h2>
+<div id="materials" class="section level3">
+<h3>Materials</h3>
 <ul>
 <li><p>bike trailer frame</p></li>
 <li><p>LEDs:</p></li>
@@ -448,30 +411,35 @@ div.tocify {
 <li><p>Wood glue</p></li>
 <li><p>Wood filler</p></li>
 <li><p>Batteries: TalentCell Rechargeable 12V 6000mAh/5V 12000mAh DC Output Lithium Ion Battery Pack for LED Strip and CCTV Camera, Portable Li-ion Battery Bank with Charger, Black (Multi-led Indicator)</p></li>
-<li><p>Drill</p></li>
-<li><p>JigSaw</p></li>
-<li><p>circular saw</p></li>
 <li><p>mix of screws and bolts, different sizes</p></li>
 <li><p>Zip ties</p></li>
 </ul>
 </div>
-<div id="how-to" class="section level1">
-<h1>HOW TO</h1>
-<div id="recover-a-used-bike-trailer" class="section level2">
-<h2>Recover a used bike trailer</h2>
+<div id="tools" class="section level3">
+<h3>Tools</h3>
+<ul>
+<li>Drill</li>
+<li>JigSaw</li>
+<li>Circular saw</li>
+</ul>
+</div>
+</div>
+<div id="how-to" class="section level2">
+<h2>HOW TO</h2>
+<div id="recover-a-used-bike-trailer" class="section level3">
+<h3><strong>Recover a used bike trailer</strong></h3>
 <p>You can usually find used bike trailers on craiglist, facebook marketplace or buy nothing facebook groups. Once your night market chapter becomes know in your community, bike trailers will come to you :)</p>
 <ul>
 <li><p>the original trailer’s structure/design will influence the amount of materials you have to use and how much work it’s going to take to build the new one.</p></li>
 <li><p>the capacity and weight it’s able to carry will vary by maker. IF you can, it’s good to check the weight it’s designed to carry and take it into account when you plan what you will use this trailer for and the materials. A good brand to go for is Burley, they are sturdy, well made and can carry a decent amount of weight.</p></li>
 </ul>
 </div>
-<div id="design-the-trailers-structure" class="section level2">
-<h2>Design the trailer’s structure</h2>
+<div id="design-the-trailers-structure" class="section level3">
+<h3><strong>Design the trailer’s structure</strong></h3>
 <p>Depending on the metal frame of the recovered trailer, and the planned use the trailer, the design may vary.</p>
-<div id="basic-structure" class="section level3">
-<h3>Basic structure</h3>
-<div id="things-to-consider" class="section level4">
-<h4>Things to consider:</h4>
+<div id="basic-structure" class="section level4">
+<h4><strong>Basic structure</strong></h4>
+<p>Things to consider:</p>
 <ul>
 <li><p>LED-lit sides will need double wood panels, that will “sandwich” the LEDs inside (for example, if there are 2 lateral panels, you will need to cut out 4 identical pieces). These will increase the weight of your trailer considerably.</p></li>
 <li><p>If you want your trailer to be as lightweight as possible, consider minimizing areas with wood, using nets or leaving the metal frame structure bare.</p></li>
@@ -511,9 +479,8 @@ div.tocify {
 <p>thicker wood is recommended, and must adjust to the trailer metal frame, at least ½ inch plywood. <br></p>
 </div>
 </div>
-</div>
-<div id="building-steps" class="section level2">
-<h2>Building steps</h2>
+<div id="building-steps" class="section level3">
+<h3><strong>Building steps</strong></h3>
 <ol style="list-style-type: decimal">
 <li>Disassemble the recovered trailer, leaving just the metal structure</li>
 </ol>
@@ -565,14 +532,20 @@ The beams and panels should look something like this: <br>
 </h4>
 <p><br></p>
 <p><strong>and you’re done!!</strong></p>
-<p><br></p>
+<p><br> <br></p>
 </h4>
 <div class="main-photo">
 <img src="photos/1S9A8415.jpg">
 </div>
 </h4>
+<p><br> <br></p>
 <p>How to video coming soooon :)</p>
 </div>
+</div>
+</div>
+<div id="led-sign" class="section level1">
+<h1><strong>LED SIGN</strong></h1>
+<p>How to video coming soooon :)</p>
 </div>
 
 
@@ -604,7 +577,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
@@ -613,6 +586,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')

@@ -1,10 +1,12 @@
 ---
-title: "RE-BUILD A USED BIKE TRAILER "
+title: "HOW TO BUILD NIGHT MARKET STUFF"
 output:
   html_document:
     toc: true
     toc_float: true
 ---
+
+# **RE-BUILD A USED BIKE TRAILER** 
 
 </h4><div class="main-photo"><img src="photos/1S9A8374.jpg"></div></h4>
 
@@ -14,8 +16,9 @@ At Night Market, we generally repurpose and re-vamp second-hand bike trailers by
 
 * LED-lit signs and lights: improves the visibility of night market riders, thus increasing their safety during night-time food pick-ups and also increasing recognizability in the community. 
 
+## YOU NEED 
 
-# MATERIALS
+### Materials 
 
 * bike trailer frame
 
@@ -33,15 +36,18 @@ At Night Market, we generally repurpose and re-vamp second-hand bike trailers by
 * Wood glue
 * Wood filler
 * Batteries: TalentCell Rechargeable 12V 6000mAh/5V 12000mAh DC Output Lithium Ion Battery Pack for LED Strip and CCTV Camera, Portable Li-ion Battery Bank with Charger, Black (Multi-led Indicator)
-* Drill
-* JigSaw
-* circular saw
 * mix of screws and bolts, different sizes
 * Zip ties
 
-# HOW TO
+### Tools
+* Drill
+* JigSaw
+* Circular saw
 
-## Recover a used bike trailer
+
+## HOW TO
+
+### **Recover a used bike trailer**
 
 You can usually find used bike trailers on craiglist, facebook marketplace or buy nothing facebook groups. Once your night market chapter becomes know in your community, bike trailers will come to you :) 
 
@@ -50,13 +56,13 @@ You can usually find used bike trailers on craiglist, facebook marketplace or bu
 * the capacity and weight it's able to carry will vary by maker. IF you can, it's good to check the weight it's designed to carry and take it into account when you plan what you will use this trailer for and the materials. A good brand to go for is Burley, they are sturdy, well made and can carry a decent amount of weight. 
 
 
-## Design the trailer’s structure 
+### **Design the trailer’s structure** 
 
 Depending on the metal frame of the recovered trailer, and the planned use the trailer, the design may vary. 
 
-### Basic structure
+#### **Basic structure**
 
-#### Things to consider:
+Things to consider:
 
 * LED-lit sides will need double wood panels, that will “sandwich” the LEDs inside (for example, if there are 2 lateral panels, you will need to cut out 4 identical pieces). These will increase the weight of your trailer considerably.
 
@@ -96,7 +102,7 @@ typically shorter, and must allow easy access to the food inside the trailer. If
 thicker wood is recommended, and must adjust to the trailer metal frame, at least ½ inch plywood. 
 <br> 
 
-## Building steps 
+### **Building steps** 
 
 1. Disassemble the recovered trailer, leaving just the metal structure
 
@@ -134,9 +140,14 @@ The beams and panels should look something like this:
 
 **and you're done!!**
 
-<br> 
+<br> <br> 
 
 </h4><div class="main-photo"><img src="photos/1S9A8415.jpg"></div></h4>
+<br> <br> 
 
+How to video coming soooon :) 
+
+
+# **LED SIGN**
 
 How to video coming soooon :) 

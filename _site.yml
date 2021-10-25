@@ -1,4 +1,4 @@
-name: "night market diy guidelines"
+name: "DIY night market"
 output_dir: '.'
 output:
   html_document:
@@ -7,28 +7,26 @@ output:
     lib_dir: site_libs
     self_contained: no
 navbar:
-  title: night market DIY guides
+  title: DIY night market
   left:
-  - text: about
-    href: index.html
-  - text: food recovery
+  - text: how to do night market
     href: food_recovery.html
   - text: legal
     href: legal.html  
-  - text: community
-    href: community.html
   - text: build stuff
     href: bikecart.html
   - text: organize
-    href: volunteers.html
-  - text: freedge
-    href: freedge.html
-  - text: resources
-    href: resources.html
+    href: organize.html
+
   - text: contact us!
     menu:
-    - icon: fa-twitter
-      href: https://twitter.com/DavisNightMrkt
     - icon: fa-envelope
       href: mailto:nightmarket@freedge.org
+    - icon: fa-instagram
+      href: https://www.instagram.com/davisnightmarket/
+    - icon: fa-twitter
+      href: https://twitter.com/DavisNightMrkt
+    - icon: fa-facebook
+      href: https://www.facebook.com/davisnightmarket
+    
       

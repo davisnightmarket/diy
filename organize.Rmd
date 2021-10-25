@@ -1,11 +1,22 @@
 ---
-title: "VOLUNTEERS"
+title: "ORGANIZE"
 output:
   html_document:
     toc: true
     toc_float: true
 ---
 
+# **DONOR RECRUITMENT**
+
+Here's a handy <a href="docs/liability_flowchart.pdf" target="_blank">**LIABILITY FLOW CHART** </a> to assuage donor's fears regarding liability. For more info check out our section on [liability](https://davisnightmarket.github.io/diy/legal#liability) 
+
+Emails:
+Make a database of all possible donors, classified them according likelihood to have leftovers, closing time and distance to your Night Market spot
+link in our website or social pages to show legitimacy 
+Personally
+Connections
+
+# **VOLUNTEER RECRUITMENT**
 
 Methods of recruitment 
 Signing up on a signup sheet at Night Market
