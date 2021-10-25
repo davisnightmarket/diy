@@ -159,3 +159,137 @@ It's helpful to have "greeters" or "welcomers", that is, team members with the s
 PARTY!!
 
 </h4><div class="main-photo"><img src="photos/1S9A8421.jpg"></div></h4>
+
+
+# **DONOR RECRUITMENT**
+
+## HOW TO
+
+Make a database of all possible donors. Include:
+
+* closing time
+* contact (email/phone of establishment)
+* name of manager
+* when manager's in the establishment
+* status of contact (have you emailed them, have you gone in person, what did they say)
+* if they've agreed to donate or not
+
+### email 
+
+* Emails should be sent from the oficial night market email. 
+
+* Link your website or social media to show legitimacy.
+
+Here's an email template:
+
+Dear (contact name):
+
+This is (your name), (your role) of the [insert your location] Night Market. I’m contacting you to invite your (restaurant/grocery store/bakery) (name of establishment) to participate in our food recovery program. We are a non-profit organization that has been active in Davis since 2019, reducing food waste and food insecurity in our community. We recover food that would otherwise go to waste from various businesses in Davis at closing time, and immediately take it to Central Park to redistribute it freely to those in need.
+
+We currently hold a Food Service permit from [insert your location] County that allows us to distribute pre-cooked food items, as well as produce and non-perishables. All donations are legally covered by the Federal Good Samaritan Food Donation Law of 2018, protecting the donating business. All you have to do is give us a time and have your left-overs ready for us, and we’ll show up and do the rest. Our volunteers are in charge of portioning the food into compostable containers and transporting it to the [insert your location] using bike trailers, because, yes, we also strive for making our activities zero emissions!
+
+During the pandemic we have had an increase of people seeking our service and are looking to increase our offerings. Do you want to join the [insert your donors] in helping your community and the environment? It’s easy!
+Currently, we hold our events four nights a week (Monday through Friday), and we can accommodate one or all of these nights.
+
+Looking forward to hearing from you! (your name)
+
+### visit establishments in person 
+
+#### YOU NEED 
+
+* <a href="docs/liability_flowchart.pdf" target="_blank">**liability flow chart** </a> 
+* marketing flyer: with email and website (to look legit)
+* copy of the health permit 
+
+
+#### HOW TO 
+
+Ask to speak to the manager. Always make a good first impression
+
+Template of in person pitch: 
+
+Hi, my name is [___________] , may I speak to the restaurant owner? I am with the Davis Night Market and our non-profit organization recovers leftover food at the end of the night from restaurants around town to reduce waste, and feed the people in need. We are partnered with the Yolo County Food Bank and UC Davis and received our permit from Yolo County. I just wanted to ask you, what do you do with the leftovers once your restaurant closes? 
+
+(restaurant owner answers) 
+
+I wanted to extend this opportunity to you to partner with us and join other restaurants in reducing waste on your end, and letting us do the work in packaging the leftovers, and feeding our people right here in Davis. As an exchange, we will assist with increasing your Yelp Reviews along with the opportunity to use this as a tax write off. Let me go over the liability flowchart with you 
+
+(show restaurant owner how this flowchart works)
+
+
+## liability
+
+Here's a handy <a href="docs/liability_flowchart.pdf" target="_blank">**LIABILITY FLOW CHART** </a> to assuage donor's fears regarding liability. For more info check out our section on [liability](https://davisnightmarket.github.io/diy/legal#liability) 
+
+## donor FAQs
+
+DO YOU HAVE A PERMIT? 
+
+Yes, we do! We received our permit from Yolo County as well as an event permit from the city of Davis.
+
+UNDER WHAT CATEGORY LEVEL ARE YOU?
+
+We are under category 2 of LSCFO (limited service charitable feeding operation) where we only accept the prepared foods.
+
+AM I GOING TO BE LIABLE?
+
+No, you will not be liable! You are protected by the Federal Good Samaritan Food Donation Act (AB-1219), which says you can’t be sued for giving away food to a non-profit. 
+
+
+I WOULD LIKE TO USE THIS DONATION OPPORTUNITY AS A TAX WRITE OFF:
+
+You sure can! Please email us at nightmarket@freedge.org 
+
+WHO DOES THE PACKAGING? I DO NOT WANT MY OWN WORKERS TO PACKAGE:
+
+Not to worry! Our volunteers will do all the work in packaging and you do not have to lift a finger on your end.
+
+WHO PROVIDES THE PACKAGING BOXES? THIS WILL CUT INTO MY PROFITS IF I PROVIDE MY BOXES:
+
+Nothing will cost you! We provide our own small package boxes during this process, however, if you want to use your own packaging to promote your brand, you may do so.
+
+I DONATE FOOD ALL THE TIME, WHY SHOULD I DONATE WITH YOU?
+
+Donating to us feeds our friends in the community. Not only does your contribution help them, but we are also helping you eliminate food waste at the end of the day. Composting can be very expensive, we are helping you eliminate that extra leg work to do that.
+
+WHAT ENSURES THAT YOUR NONPROFIT IS LEGITIMATE?
+
+We are a sister npo to Freedge and are partnered with the Aggie Compass, an initiative of UC Davis, Food Recovery Network, a student organization at UC Davis, the UC Davis Pantry, as well as Land&Ladle.
+
+HOW MUCH OF A COMMITMENT DO YOU NEED FROM US?
+
+We hope to collect food every day of the week.
+
+
+
+# **VOLUNTEER RECRUITMENT**
+
+## volunteer training process
+
+1. Visit a night market event, assisting with setup, on nights staffed by one of the volunteer trainers. Trainers will outline the various types of assistance that is needed. Different roles new volunteers could be interested in include:
+
+* food pick-up
+* restaurant recruiting
+* social media
+* build
+
+2. Get trained on how to hook a bike trailers to your bike, orient with the items needed (where all the materials needed for food recovery are located), and have a safety check completed on your bike. Contact bike team.  
+
+3. Shadow a pick up with one of the pick-up team members, retrieving a bike trailer (and items) from HQ as needed. 
+
+4. Figure out where you can be most helpful. What nights, what efforts, and what else you are able to help out with. Communicate with the volunteer trainers via email or text. 
+
+
+Methods of communication though volunteer training: 
+
+* First, email/text. 
+* Second, Slack, added after they completed a shadow night. 
+
+
+
+## methods of recruitment 
+
+* Messages of interest on social media 
+
+* Messages of interest by email, through website, flyers...
+
