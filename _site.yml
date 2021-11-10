@@ -15,9 +15,6 @@ navbar:
     href: legal.html  
   - text: build stuff
     href: bikecart.html
-  - text: organize
-    href: organize.html
-
   - text: contact us!
     menu:
     - icon: fa-envelope
